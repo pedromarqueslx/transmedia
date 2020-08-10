@@ -5,46 +5,55 @@
     <!-- Page Title
 ============================================= -->
     <!--<section class="section-category-content">-->
-    <section class="section-page">
+    <section class="section-category-travel-posts">
 
-        <div class="container">
+        <div class="container shadow" style="background-color: white">
 
-            <div class="row mb-5 mt-4">
+            <div class="card-columns mb-5 mt-5 pb-5">
 
-                <div class="col-sm-12 col-md-12">
+                <?php if ( have_posts() ) : ?>
 
-                    <!-- archive is a list of posts based on the category -->
-                    <h1><?php the_archive_title(); ?></h1>
+                <?php
+                // Start the Loop.
+                while ( have_posts() ) :
+                    the_post();
+                    ?>
+
+                    <div class="card">
+                        <?php
+                        get_template_part( 'partials/post/content', 'excerpt-blog' );
+                        ?>
+                    </div>
+
+                <?php
+                    // End the loop.
+                endwhile;
+                ?>
+
+            </div>
+
+            <div class="row m-4">
+
+                <div class="col-sm-12 col-md-12 p-4 d-flex justify-content-center">
+
+                    <?php
+                    the_posts_pagination(
+                        array(
+                            'prev_text'          => '<span class="posts-pagination">' . __( '&laquo;', 'webook' ) . '</span>',
+                            'next_text'          => '<span class="posts-pagination">' . __( '&raquo;', 'webook' ) . '</span>',
+                            'before_page_number' => '<span class="posts-pagination">' . __( '', 'webook' ) . ' </span>',
+                        )
+                    );
+                    ?>
 
                 </div>
 
-                <!-- Post Content
-                ============================================= -->
-
-                <!-- Posts
-                ============================================= -->
-                <?php
-
-                if ( have_posts() ) {
-                    while ( have_posts()) {
-                        the_post();
-                        // get parts of the include
-                        // get template part points to theme dir
-                        ?>
-
-                        <div class="col-md-6 mt-5 mb-2">
-
-                        <?php
-                        get_template_part('partials/post/content-excerpt');
-                        ?>
-
-                        </div>
-
-                        <?php
-                    }
-                }
-
-                ?>
+                    <?php
+                        // If no content, include the "No posts found" template.
+                        else :
+                            get_template_part( 'partials/content', 'none' );
+                        endif;
+                    ?>
 
             </div>
 

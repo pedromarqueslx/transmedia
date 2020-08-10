@@ -4,14 +4,15 @@ function cf_customize_register( $wp_customize ) {
     $wp_customize->get_section ( 'title_tagline' )->title = 'Site Identity';
 
 	// WP customize classes - Add Panel Customizer
-    $wp_customize->add_panel ( 'companyfactory', array(
-		'title' => __( 'Company Factory','companyfactory' ),
-		'description' => '<p>Company Factory</p>',
+    $wp_customize->add_panel ( 'webook', array(
+		'title' => __( 'Webook','webook' ),
+		'description' => '<p>webook</p>',
 		'priority' => 160
 	));
 
+    cf_misc_customizer_section ( $wp_customize );
 	cf_social_customizer_section ( $wp_customize );
-	cf_misc_customizer_section ( $wp_customize );
+    cf_footernavigation_customizer_section ( $wp_customize );
 
 	//echo '<pre>';
 	//var_dump($wp_customize);

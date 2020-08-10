@@ -1,142 +1,236 @@
 <?php
 function cf_social_customizer_section ( $wp_customize ) {
 
-    $wp_customize->add_setting( 'ju_footelinkstitle_handle', array(
+    // ::::::::::::::::::::: ADD SECTION :::::::::::::::::::::::::::: //
+    $wp_customize->add_section( 'ju_social_section', array(
+        'title'			 => __( 'Webook Contact and Social', 'webook' ),
+        'priority'		 => 30,
+        'panel'          => 'webook'
+    ));
+    // ::::::::::::::::::::: ADD SECTION :::::::::::::::::::::::::::: //
+
+    $wp_customize->add_setting( 'ju_rateus_handle', array(
         'default' 		=> '',
     ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_aboutus_input',
+            array(
+                'label'          => __( 'Footer Rate Title', 'webook' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_rateus_handle',
+                'type'           => 'text'
+            )
+        ));
 
     $wp_customize->add_setting( 'ju_footeAddressTitle_handle', array(
         'default' 		=> '',
     ));
 
-    $wp_customize->add_setting( 'ju_linkedin_handle', array(
-        'default' 		=> '',
-    ));
-
-    $wp_customize->add_setting( 'ju_facebook_link_input_handle', array(
-        'default' 		=> '',
-    ));
-
-    $wp_customize->add_setting( 'ju_instagram_handle', array(
-        'default' 		=> '',
-    ));
-
-	$wp_customize->add_setting( 'ju_phone_handle', array(
-		'default' 		=> '',
-		));
-
-    $wp_customize->add_setting( 'ju_address_handle', array(
-        'default' 		=> '',
-    ));
-
-    $wp_customize->add_setting( 'ju_email_handle', array(
-        'default' 		=> '',
-    ));
-
-
-    // ::::::::::::::::::::: ADD SECTION :::::::::::::::::::::::::::: //
-	$wp_customize->add_section( 'ju_social_section', array(
-		'title'			 => __( 'Company Factory Social', 'companyfactorty' ),
-		'priority'		 => 30,
-        'panel'          => 'companyfactory'
-		));
-    // ::::::::::::::::::::: ADD SECTION :::::::::::::::::::::::::::: //
-
-    // ADD CONTROL
     $wp_customize->add_control(
         new WP_Customize_Control(
             $wp_customize,
             'ju_footeAddressTitle_input',
             array(
-                'label'          => __( 'Footer Address Title', 'companyfactorty' ),
+                'label'          => __( 'Footer Address Title', 'webook' ),
                 'section'        => 'ju_social_section',
                 'settings'       => 'ju_footeAddressTitle_handle',
                 'type'           => 'text'
             )
         ));
 
+    $wp_customize->add_setting( 'ju_google_handle', array(
+        'default' 		=> '',
+    ));
+
     $wp_customize->add_control(
         new WP_Customize_Control(
             $wp_customize,
-            'ju_footelinkstitle_input',
+            'ju_google_input',
             array(
-                'label'          => __( 'Footer Links Title', 'companyfactorty' ),
+                'label'          => __( 'Google Rate Us', 'webook' ),
                 'section'        => 'ju_social_section',
-                'settings'       => 'ju_footelinkstitle_handle',
+                'settings'       => 'ju_google_handle',
                 'type'           => 'text'
             )
         ));
+
+	$wp_customize->add_setting( 'ju_facebook_handle', array(
+		'default' 		=> '',
+		));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_facebook_input',
+            array(
+                'label'          => __( 'Facebook Rate Us', 'webook' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_facebook_handle',
+                'type'           => 'text'
+            )
+        ));
+
+    $wp_customize->add_setting( 'ju_linkedin_handle', array(
+        'default' 		=> '',
+    ));
 
     $wp_customize->add_control(
         new WP_Customize_Control(
             $wp_customize,
             'ju_linkedin_input',
             array(
-                'label'          => __( 'LinkedIn', 'companyfactorty' ),
+                'label'          => __( 'LinkedIn', 'webook' ),
                 'section'        => 'ju_social_section',
                 'settings'       => 'ju_linkedin_handle',
                 'type'           => 'text'
             )
         ));
 
+    $wp_customize->add_setting( 'ju_facebook_link_input_handle', array(
+        'default' 		=> '',
+    ));
+
     $wp_customize->add_control(
         new WP_Customize_Control(
             $wp_customize,
             'ju_facebook_link_input',
             array(
-                'label'          => __( 'Facebook', 'companyfactorty' ),
+                'label'          => __( 'Facebook', 'webook' ),
                 'section'        => 'ju_social_section',
                 'settings'       => 'ju_facebook_link_input_handle',
                 'type'           => 'text'
             )
         ));
 
+    $wp_customize->add_setting( 'ju_instagram_handle', array(
+        'default' 		=> '',
+    ));
+
     $wp_customize->add_control(
         new WP_Customize_Control(
             $wp_customize,
             'ju_instagram_input',
             array(
-                'label'          => __( 'Instagram', 'companyfactorty' ),
+                'label'          => __( 'Instagram', 'webook' ),
                 'section'        => 'ju_social_section',
                 'settings'       => 'ju_instagram_handle',
                 'type'           => 'text'
             )
         ));
 
+    $wp_customize->add_setting( 'ju_twitter_handle', array(
+        'default' 		=> '',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_twitter_input',
+            array(
+                'label'          => __( 'Twitter', 'webook' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_twitter_handle',
+                'type'           => 'text'
+            )
+        ));
+
+    $wp_customize->add_setting( 'ju_youtube_handle', array(
+        'default' 		=> '',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_youtube_input',
+            array(
+                'label'          => __( 'Youtube', 'webook' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_youtube_handle',
+                'type'           => 'text'
+            )
+        ));
+
+    $wp_customize->add_setting( 'ju_pinterest_handle', array(
+        'default' 		=> '',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_pinterest_input',
+            array(
+                'label'          => __( 'Pinterest', 'webook' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_pinterest_handle',
+                'type'           => 'text'
+            )
+        ));
+
+	$wp_customize->add_setting( 'ju_phone_handle', array(
+		'default' 		=> '',
+		));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_phone_input',
+            array(
+                'label'          => __( 'Phone', 'webook' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_phone_handle',
+                'type'           => 'text'
+            )
+        ));
+
+    $wp_customize->add_setting( 'ju_address_handle', array(
+        'default' 		=> '',
+    ));
+
     $wp_customize->add_control(
         new WP_Customize_Control(
             $wp_customize,
             'ju_address_input',
             array(
-                'label'          => __( 'Address', 'companyfactorty' ),
+                'label'          => __( 'Address', 'webook' ),
                 'section'        => 'ju_social_section',
                 'settings'       => 'ju_address_handle',
                 'type'           => 'text'
             )
         ));
 
-	$wp_customize->add_control(
-		new WP_Customize_Control(
-        $wp_customize,
-        'ju_email_input',
-        array(
-            'label'          => __( 'E-mail', 'companyfactorty' ),
-            'section'        => 'ju_social_section',
-            'settings'       => 'ju_email_handle',
-            'type'           => 'text'
-        )
+    $wp_customize->add_setting( 'ju_email_handle', array(
+        'default' 		=> '',
     ));
 
-	$wp_customize->add_control(
-		new WP_Customize_Control(
-        $wp_customize,
-        'ju_phone_input',
-        array(
-            'label'          => __( 'Phone', 'companyfactorty' ),
-            'section'        => 'ju_social_section',
-            'settings'       => 'ju_phone_handle',
-            'type'           => 'text'
-        )
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_email_input',
+            array(
+                'label'          => __( 'E-mail', 'webook' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_email_handle',
+                'type'           => 'text'
+            )
+        ));
+
+    $wp_customize->add_setting( 'ju_working_hours_handle', array(
+        'default' 		=> '',
     ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_email_input',
+            array(
+                'label'          => __( 'Working Hours', 'webook' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_working_hours_handle',
+                'type'           => 'textarea'
+            )
+        ));
 
 }

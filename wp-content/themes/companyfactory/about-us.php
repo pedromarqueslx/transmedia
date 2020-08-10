@@ -5,37 +5,35 @@
 get_header ();
 ?>
 
-	<!-- Travel Products
+    <!-- Products
     ============================================= -->
-    <section class="section-page">
 
-        <!-- Post Content
-        ============================================= -->
+    <section id="section3" class="section-products" style="display: <?php the_field('section_products') ?>">
 
         <?php
+            echo do_shortcode('[smartslider3 slider=4]');
+        ?>
 
-        if ( have_posts() ) {
-            while ( have_posts() ) {
+    </section><!-- #content end -->
+
+
+    <!-- webook Team
+    ============================================= -->
+
+    <section id="section2" class="section-uber-uns">
+        <div class="container mt-4">
+    <!-- Post Content
+    ============================================= -->
+
+    <?php
+
+    if ( have_posts() ) {
+    while ( have_posts() ) {
         the_post ();
         $author_ID = get_the_author_meta ('ID');
         $author_url = get_author_posts_url ($author_ID);
         ?>
 
-        <!-- Entry Image
-        ============================================= -->
-        <?php
-
-        if ( has_post_thumbnail () ) {
-            ?>
-            <?php //the_post_thumbnail ('full', ['sizes' => '100%', 'class' => 'img-fluid', 'title' => 'TravelBoo']); ?>
-            <?php //the_post_thumbnail ('large', [ 'class' => 'img-fluid', 'title' => 'TravelBoo']); ?>
-            <?php
-            //echo do_shortcode( '[contact-form-7 id="270" title="travelboo-startpage"]');
-            ?>
-            <?php
-        }
-
-        ?>
         <!-- Entry Content
         ============================================= -->
 
@@ -43,7 +41,45 @@ get_header ();
         the_content ();
         ?>
 
+        </div>
     </section><!-- #content end -->
+
+
+    <!-- Travel Posts
+    ============================================= -->
+    <section id="section5" class="section-travel-posts" style="display: <?php the_field('section_travel_posts') ?>">
+
+        <div class="container">
+
+            <div class="row mt-5 mb-5">
+
+                <?php
+                    include( plugin_dir_path( __FILE__ ) . 'includes/front/travel-posts.php');
+                ?>
+
+            </div>
+
+        </div>
+
+    </section><!-- #content end -->
+
+    <!-- FAQS
+    ============================================= -->
+    <section id="section7" class="section-faqs-posts" style="display: <?php the_field('section_faqs_posts') ?>">
+
+        <div class="container">
+
+            <div class="row mt-5 mb-5">
+
+                <?php
+                    include( plugin_dir_path( __FILE__ ) . 'includes/front/travel-faqs.php');
+                ?>
+
+            </div>
+
+        </div>
+
+    </section><!-- #FAQS end -->
 
     <?php
         }

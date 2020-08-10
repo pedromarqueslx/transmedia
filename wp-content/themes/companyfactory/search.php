@@ -1,45 +1,45 @@
 <?php
+
     get_header ();
+
 ?>
 
 	<!-- Content
     ============================================= -->
-	<section class="section-page">
+
+	<section class="section-travel-category-search">
 
         <div class="container">
 
             <div class="row mb-5 mt-5">
 
-                <!-- Search Box
+                <!-- Post Content
                 ============================================= -->
-                <div class="col-sm-12 col-md-6 mt-5">
 
-                    <h1><?php _e('Was suchst du heute?', 'companyfactory'); ?></h1>
+                <div class="col-12 pt-4 pb-4">
 
-                </div>
-
-                <div class="col-sm-12 col-md-6 mt-5 mb-5">
-
-                    <?php get_search_form(); ?>
-
-                    <!-- Search Box End -->
+                    <h1><?php _e('Was suchst du heute?', 'webook'); ?></h1>
 
                 </div>
 
                 <!-- Posts
                 ============================================= -->
+
                 <?php
 
-                if ( have_posts() ) {
+                if (have_posts() ) {
+
                     while ( have_posts()) {
+
                         the_post();
+
                         ?>
 
-                        <div class="col-md-6 mt-2 pb-3 ">
+                        <div class="col-12 mt-2 mb-2">
 
                             <?php
 
-                            get_template_part('partials/post/content-excerpt');
+                                get_template_part('partials/post/content-excerpt');
 
                             ?>
 

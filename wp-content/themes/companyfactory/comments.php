@@ -70,30 +70,30 @@ if( post_password_required() ){
         comment_form(array(
             'comment_field'     =>  '
             <div class="col_full">
-                <label for="comment">' . __( 'Comment', 'companyfactory' ) . '</label>
+                <label for="comment">' . __( 'Comment', 'webook' ) . '</label>
                 <textarea name="comment" cols="58" rows="7" tabindex="4" class="sm-form-control"></textarea>
             </div> <div class="clear"></div>',
             'fields'            =>  array(
                 'author'        =>
                     '<div class="col_one_third">
-                <label for="author">' . __( 'Name', 'companyfactory' ) . '</label>
+                <label for="author">' . __( 'Name', 'webook' ) . '</label>
                 <input type="text" name="author" id="author" value="" size="22" tabindex="1" class="sm-form-control" />
                 </div>',
                 'email'         =>
                     '<div class="col_one_third">
-                <label for="email">' . __( 'E-mail', 'companyfactory' ) . '</label>
+                <label for="email">' . __( 'E-mail', 'webook' ) . '</label>
                 <input type="text" name="email" id="email" value="" size="22" tabindex="2" class="sm-form-control" />
                 </div>',
 
                 'url'           =>
                     '<div class="col_one_third col_last">
-                <label for="url">' . __( 'Website', 'companyfactory' ) . '</label>
+                <label for="url">' . __( 'Website', 'webook' ) . '</label>
                 <input type="text" name="url" id="url" value="" size="22" tabindex="3" class="sm-form-control" />
                 </div>'
             ),
             'class_submit'      =>  'button nomargin',
-            'label_submit'      =>  __( 'SUBMIT COMMENT' , 'companyfactory' ),
-            'title_reply'       =>  __( 'Leave a <span>comment</span>', 'companyfactory' )
+            'label_submit'      =>  __( 'SUBMIT COMMENT' , 'webook' ),
+            'title_reply'       =>  __( 'Leave a <span>comment</span>', 'webook' )
 
         ));
 

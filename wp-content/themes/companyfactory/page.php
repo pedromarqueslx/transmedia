@@ -1,45 +1,35 @@
-<?php get_header ();?>
+<?php
 
-    <!-- Content Start Page
-    ============================================= -->
-    <section class="section-page">
+get_header (); ?>
 
-        <!-- Entry Content
-        ============================================= -->
-        <div class="container">
+    <div class="container">
 
-            <div class="row mb-5 mt-4">
+     <!-- Page Content
+     ============================================= -->
+        <?php
 
-                <div class="col-sm-12 col-md-12">
+        if ( have_posts() ) {
 
-                <!-- Post Content
-                ============================================= -->
+        while ( have_posts() ) {
 
-                <?php
+        the_post ();
 
-                if ( have_posts() ) {
-                    while ( have_posts() ) {
-                the_post ();
-                $author_ID = get_the_author_meta ('ID');
-                $author_url = get_author_posts_url ($author_ID);
-                ?>
+        $author_ID = get_the_author_meta ('ID');
 
-                <!-- Entry Content
-                ============================================= -->
+        $author_url = get_author_posts_url ($author_ID);
 
-                <?php
-                the_content ();
-                ?>
+        ?>
 
-                </div>
+        <?php
 
-            </div>
+            the_content ();
 
-        </div>
+        ?>
 
-    </section><!-- #content end -->
+      </div><!-- #content end -->
 
-    <?php
+        <?php
+
         }
     }
 

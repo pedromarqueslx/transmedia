@@ -1,6 +1,6 @@
 <?php
 function cf_setup_theme(){
-	//add_theme_support( 'menus' );
+	add_theme_support( 'menus' );
     add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'custom-logo' );
@@ -9,6 +9,7 @@ function cf_setup_theme(){
 	// theme support for HTML5
 	add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
 	add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio' ) );
+
 
 	// Dummy Content on Fresh WP Instalation
 	// Define and register starter content to showcase the theme on new sites.
@@ -25,7 +26,7 @@ function cf_setup_theme(){
 		// Create the custom image attachments used as post thumbnails for pages.
 		'attachments'               =>  array(
 			'image-about'           =>  array(
-				'post_title'        =>  __( 'About', 'companyfactory' ),
+				'post_title'        =>  __( 'About', 'webook' ),
 				'file'              =>  'assets/images/about/1.jpg', // URL relative to the template directory.
 			),
 		),
@@ -58,11 +59,11 @@ function cf_setup_theme(){
 
 		// Set the front page section theme mods to the IDs of the core-registered pages.
 		'theme_mods'                => array(
-			'ju_facebook_handle'    =>  'companyfactory',
-			'ju_twitter_handle'     =>  'companyfactory',
-			'ju_instagram_handle'   =>  'companyfactory',
-			'ju_email'              =>  'companyfactory',
-			'ju_phone_number'       =>  'companyfactory',
+			'ju_facebook_handle'    =>  'webook',
+			'ju_twitter_handle'     =>  'webook',
+			'ju_instagram_handle'   =>  'webook',
+			'ju_email'              =>  'webook',
+			'ju_phone_number'       =>  'webook',
 			//'ju_header_show_search' =>  'yes',
 			//'ju_header_show_cart'   =>  'yes',
 		),
@@ -71,7 +72,7 @@ function cf_setup_theme(){
 		'nav_menus'                 =>  array(
 			// Assign a menu to the "top" location.
 			'primary'               =>  array(
-				'name'              =>  __( 'Primary Menu', 'companyfactory' ),
+				'name'              =>  __( 'Primary Menu', 'webook' ),
 				'items'             =>  array(
 					'link_home', // Note that the core "home" page is actually a link in case a static front page is not used.
 					'page_about',
@@ -82,7 +83,7 @@ function cf_setup_theme(){
 
 			// Assign a menu to the "social" location.
 			'secondary'             =>  array(
-				'name'              =>  __( 'Secondary Menu', 'companyfactory' ),
+				'name'              =>  __( 'Secondary Menu', 'webook' ),
 				'items'             =>  array(
 					'link_home', // Note that the core "home" page is actually a link in case a static front page is not used.
 					'page_about',
@@ -93,8 +94,8 @@ function cf_setup_theme(){
 		),
 	);
 
-	add_theme_support( 'starter-content', $starter_content );
-	register_nav_menu( 'primary', __( 'Primary Menu', 'companyfactory' ) );
-	register_nav_menu( 'secondary', __( 'Secondary Menu', 'companyfactory' ) );
+    add_theme_support( 'starter-content', $starter_content );
+    register_nav_menu( 'primary', __( 'Primary Menu', 'webook' ) );
+    register_nav_menu( 'secondary', __( 'Secondary Menu', 'webook' ) );
 
 }
