@@ -401,7 +401,7 @@
                     if( get_theme_mod( 'ju_address_handle' ) ) {
                         ?>
                         <div class="row">
-                        <div class="col-1"><img src="http://www.ocm.ch/wp-content/uploads/2020/07/location.svg" width="14px"></div>
+                        <div class="col-1"><img src="https://www.transmedia.pt/wp-content/uploads/2020/08/location.svg" width="14px"></div>
                         <div class="col-10"><p class="pl-0 pl-md-2"><?php echo get_theme_mod( 'ju_address_handle' ); ?></p></div>
                         </div>
                         <?php
@@ -412,7 +412,7 @@
                     if( get_theme_mod( 'ju_phone_handle' ) ){
                         ?>
                         <div class="row">
-                        <div class="col-1"><img src="http://www.ocm.ch/wp-content/uploads/2020/07/phone.svg" width="14px"></div>
+                        <div class="col-1"><img src="https://www.transmedia.pt/wp-content/uploads/2020/08/phone.svg" width="14px"></div>
                         <div class="col-10"><p class="pl-0 pl-md-2"><a href="tel:<?php echo get_theme_mod( 'ju_phone_handle' ); ?>" title="<?php echo get_theme_mod( 'ju_phone_handle' ); ?>"><?php echo get_theme_mod( 'ju_phone_handle' ); ?></a></p></div>
                         </div>
                         <?php
@@ -423,7 +423,7 @@
                     if( get_theme_mod( 'ju_email_handle' ) ){
                         ?>
                         <div class="row">
-                        <div class="col-1"><img src="http://www.ocm.ch/wp-content/uploads/2020/07/email.svg" width="14px"></div>
+                        <div class="col-1"><img src="https://www.transmedia.pt/wp-content/uploads/2020/08/email.svg" width="14px"></div>
                         <div class="col-10"><p class="pl-0 pl-md-2"><a href="mailto:<?php echo get_theme_mod( 'ju_email_handle' ); ?>" title="<?php echo get_theme_mod( 'ju_email_handle' ); ?>"><?php echo get_theme_mod( 'ju_email_handle' ); ?></a></p></div>
                         </div>
                         <?php
@@ -434,7 +434,7 @@
                     if( get_theme_mod( 'ju_working_hours_handle' ) ) {
                         ?>
                         <div class="row">
-                            <div class="col-1"><img src="http://www.ocm.ch/wp-content/uploads/2020/07/time.svg" width="14px"></div>
+                            <div class="col-1"><img src="https://www.transmedia.pt/wp-content/uploads/2020/08/time.svg" width="14px"></div>
                             <div class="col-10"><p class="pl-0 pl-md-2"><?php echo get_theme_mod( 'ju_working_hours_handle' ); ?></p></div>
                         </div>
                         <?php
@@ -515,17 +515,18 @@
 
 <?php wp_footer(); ?>
 
-<!-- Global site tag (gtag.js) - Google Analytics
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140627851-1"></script>
-
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77903941-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-140627851-1');
+    gtag('config', 'UA-77903941-1');
 </script>
--->
+
+
+
 
 
 </body>

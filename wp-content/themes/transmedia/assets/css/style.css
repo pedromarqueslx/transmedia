@@ -199,7 +199,7 @@ html * {
 }
 
 body {
-    min-height: 75rem;
+    /*min-height: 75rem;*/
     padding-top: 100px;
     font-size: 100%;
     font-family: 'Roboto', sans-serif;
@@ -561,24 +561,24 @@ navbar-light {
 }
 
 .navbar-toggler .icon-bar {
-    background-color: #707070;
+    background-color: #d3d3d4;
     transform: rotate(0deg) translate(0px, 0px);
     transition: ease all .2s;
     display: block;
-    width: 50px;
-    height: 3px;
-    margin: 10px;
+    width: 40px;
+    height: 2px;
+    margin: 5px;
     border-radius: 3px;
 }
 
 .navbar-toggler .toggle-primary-label:after {
     content: "MENU";
-    color: #707070;
+    color: #7070705e;
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
     transition: ease all .2s;
 }
 
@@ -588,7 +588,7 @@ navbar-light {
 }
 
 .navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
-    transform: rotate(45deg) translate(11px, 8px);
+    transform: rotate(45deg) translate(1px, 6px);
     background-color: white;
     transition: ease all .2s;
 }
@@ -599,7 +599,7 @@ navbar-light {
 }
 
 .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
-    transform: rotate(-45deg) translate(10px, -8px);
+    transform: rotate(-45deg) translate(4px, -10px);
     background-color: white;
     transition: ease all .2s;
 }
@@ -829,27 +829,27 @@ body .carousel-control-next-icon {
 }
 
 .carousel-control-prev-icon-home {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/arrow-left-home.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/arrow-left-home.svg');
     width: 44px;
     height: 34px;
     background-size: 44px 34px;
 }
 
 .carousel-control-next-icon-home {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/arrow-right-home.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/arrow-right-home.svg');
     width: 44px;
     height: 34px;
     background-size: 44px 34px;
 }
 
 .carousel-control-prev-icon {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/arrow-left.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/arrow-left.svg');
     width: 30px;
     height: 30px;
 }
 
 .carousel-control-next-icon {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/arrow-right.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/arrow-right.svg');
     width: 30px;
     height: 30px;
 }
@@ -1183,69 +1183,69 @@ ul.social-links {
 }
 
 .si-facebook {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/facebook.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/facebook.svg') no-repeat;
     width: 60px;
     height: 60px;
     background-size: 60px 60px;
 }
 
 .si-facebook:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/facebook-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/facebook-hover.svg');
 }
 
 .si-instagram {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/instagram.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/instagram.svg') no-repeat;
     width: 60px;
     height: 60px;
     background-size: 60px 60px;
 }
 
 .si-instagram:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/instagram-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/instagram-hover.svg');
 }
 
 .si-linkedin {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/linkedin.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/linkedin.svg') no-repeat;
     width: 60px;
     height: 60px;
     background-size: 60px 60px;
 }
 
 .si-linkedin:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/linkedin-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/linkedin-hover.svg');
 }
 
 .si-youtube {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/youtube.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/youtube.svg') no-repeat;
     width: 60px;
     height: 60px;
     background-size: 60px 60px;
 }
 
 .si-youtube:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/youtube-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/youtube-hover.svg');
 }
 
 .si-twitter {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/twitter.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/twitter.svg') no-repeat;
     width: 60px;
     height: 60px;
     background-size: 60px 60px;
 }
 
 .si-twitter:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/twitter-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/twitter-hover.svg');
 }
 
 .si-pinterest {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/pintrest.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/pintrest.svg') no-repeat;
     width: 60px;
     height: 60px;
     background-size: 60px 60px;
 }
 
 .si-pinterest:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/pintrest-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/pintrest-hover.svg');
 }
 
 hr {
@@ -1256,7 +1256,7 @@ hr {
 }
 
 .si-menu-facebook {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-facebook.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-facebook.svg') no-repeat;
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -1264,11 +1264,11 @@ hr {
 }
 
 .si-menu-facebook:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-facebook-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-facebook-hover.svg');
 }
 
 .si-menu-instagram {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-instagram.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-instagram.svg') no-repeat;
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -1276,11 +1276,11 @@ hr {
 }
 
 .si-menu-instagram:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-instagram-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-instagram-hover.svg');
 }
 
 .si-menu-linkedin {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-linkedin.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-linkedin.svg') no-repeat;
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -1288,11 +1288,11 @@ hr {
 }
 
 .si-menu-linkedin:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-linkedin-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-linkedin-hover.svg');
 }
 
 .si-menu-youtube {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-youtube.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-youtube.svg') no-repeat;
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -1300,11 +1300,11 @@ hr {
 }
 
 .si-menu-youtube:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-youtube-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-youtube-hover.svg');
 }
 
 .si-menu-twitter {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-twitter.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-twitter.svg') no-repeat;
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -1312,11 +1312,11 @@ hr {
 }
 
 .si-menu-twitter:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-twitter-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-twitter-hover.svg');
 }
 
 .si-menu-pinterest {
-    background: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-pintrest.svg') no-repeat;
+    background: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-pintrest.svg') no-repeat;
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
@@ -1324,7 +1324,7 @@ hr {
 }
 
 .si-menu-pinterest:hover {
-    background-image: url('http://www.ocm.ch/wp-content/uploads/2020/07/menu-pintrest-hover.svg');
+    background-image: url('https://www.transmedia.pt/wp-content/uploads/2020/08/menu-pintrest-hover.svg');
 }
 
 /* ----------------------------------------------------------------
@@ -1433,6 +1433,9 @@ hr {
 @media (max-width: 575.98px) {  }
 
 @media (max-width: 767.98px) {
+    .custom-logo {
+        width: 180px;
+    }
     body .carousel-control-prev-icon {
         margin: 0;
     }
