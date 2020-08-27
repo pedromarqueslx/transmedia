@@ -34,8 +34,10 @@ public function get_token(){
     $info['valid_token']='true';    
     }else {
       unset($info['valid_token']); 
-      if(!empty($users) && is_string($users)){
+      if(!empty($users)){
+          if(is_string($users)){
           $info['error']=$users;
+          }
       } 
     }
     return $info;
@@ -55,6 +57,8 @@ if(!empty($objects['detail'])){ //title,detail
  foreach($objects['lists'] as $k=>$v){
   $res[$v['id']]=$v['name'];   
  }   
+}else{
+  $res=json_encode($objects);  
 }
  return $res;
 }

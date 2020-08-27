@@ -1148,7 +1148,7 @@ $info_data= isset($info['data']) && is_array($info['data']) ? $info['data'] : ar
 
   if(!vxcf_mailchimp::$is_pr){
           $temp_fields=array();
-       $phone=array('tags');
+       $phone=array('tags','interests');
 $n=0;
 foreach($fields as $k=>$v){
     $add=true;

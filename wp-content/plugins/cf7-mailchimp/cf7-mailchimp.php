@@ -2,9 +2,9 @@
 /**
 * Plugin Name: Contact Form 7 Mailchimp
 * Description: Integrates Contact Form 7 and <a href="https://wordpress.org/plugins/contact-form-entries/">Contact Form Entries Plugin</a> with Mailchimp allowing form submissions to be automatically sent to your Mailchimp account 
-* Version: 1.0.6
+* Version: 1.0.7
 * Requires at least: 3.8
-* Tested up to: 5.4
+* Tested up to: 5.5
 * Author URI: https://www.crmperks.com
 * Plugin URI: https://www.crmperks.com/plugins/contact-form-plugins/contact-form-mailchimp-plugin/
 * Author: CRM Perks.
@@ -26,7 +26,7 @@ class vxcf_mailchimp {
   public  $crm_name = "mailchimp";
   public  $id = "vxcf_mailchimp";
   public  $domain = "vxcf-mailchimp";
-  public  $version = "1.0.6";
+  public  $version = "1.0.7";
   public  $update_id = "6000001";
   public  $min_cf_version = "1.0";
   public $type = "vxcf_mailchimp";
@@ -407,6 +407,9 @@ if(is_array($tags)){
        $tag['type_']=$tag['type'];
        $tag['type']=$tag['basetype'];
        $tag['req']=strpos($tag['type'],'*') !==false ? 'true' : '';
+           if($tag['type'] == 'select' && !empty($tag['options']) && array_search('multiple',$tag['options'])!== false){
+          $tag['type']='multiselect'; 
+       }
    $fields[$id]=$tag;    
    }   
   }  
@@ -574,24 +577,27 @@ return $result;
      }
   
   }
-  if($value && is_array($value)){
-      
- $fields=$this->form_fields;
- 
-         if(isset($fields[$field_id]['type']) && $fields[$field_id]['type'] == 'file'){
-   
-             $upload=wp_upload_dir();
-    $base_url=$upload['baseurl'].'/cf7_entries_vx/';
-    foreach($value as $k=>$v){
-        if(strpos($v,'://') === false){
-       $v=$base_url.$v;     
-        }
-             $value[$k]=$v;
-    } 
+ $fields=$this->form_fields;  
+ $type=isset($fields[$field_id]['type']) ? $fields[$field_id]['type'] : '';
+if( $type == 'file' && !empty($value)){
+    if(class_exists('vxcf_form')){
+$upload=vxcf_form::get_upload_dir(); 
+$temp_files=array();
+      if(!is_array($value)){ $value=array($value); }
+foreach($value as $f){
+     if(filter_var($f,FILTER_VALIDATE_URL) === false){
+      if(strpos($sf_id,'vx_list_files') !== false){
+       $f=$upload['dir'].$f;   
+      }else{   
+    $f=$upload['url'].$f; //url , dir
+     } }
+  $temp_files[]=$f;   
+}  $value=$temp_files;   
+    }
+$value=trim(implode(' ',$value));
+ }else if( $type == 'select' && is_array($value) ){
+   $value=trim(implode(' ',$value));  
  }
- 
-  $value=implode(", ",$value);
-  }
   return $value;        
   }
   /**

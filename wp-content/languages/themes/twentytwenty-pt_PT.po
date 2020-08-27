@@ -2,18 +2,31 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-05 13:15:47+0000\n"
+"PO-Revision-Date: 2020-06-11 09:25:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: pt\n"
 "Project-Id-Version: Themes - Twenty Twenty\n"
 
 #. Theme Name of the theme
 msgid "Twenty Twenty"
 msgstr "Twenty Twenty"
+
+#: inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "A vida que eu mereço"
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "Teatro de operações"
+
+#: inc/starter-content.php:73 inc/starter-content.php:88
+#: inc/starter-content.php:105 inc/starter-content.php:120
+msgid "Read More"
+msgstr "Ler mais"
 
 #: classes/class-twentytwenty-customize.php:126
 msgid "Custom"
@@ -27,7 +40,11 @@ msgstr "Por omissão"
 msgid "Primary Color"
 msgstr "Cor principal"
 
-#: searchform.php:24 template-parts/modal-search.php:20
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "De Signac a Matisse"
+
+#: template-parts/modal-search.php:20 searchform.php:24
 msgid "Search for:"
 msgstr "Pesquisar por:"
 
@@ -80,16 +97,16 @@ msgstr "Comentários"
 msgid "Comments are closed."
 msgstr "Os comentários estão fechados."
 
-#: inc/starter-content.php:176 inc/starter-content.php:186 functions.php:494
+#: functions.php:489 inc/starter-content.php:177 inc/starter-content.php:187
 msgid "Primary"
 msgstr "Principal"
 
-#: inc/starter-content.php:196
+#: inc/starter-content.php:197
 msgid "Social Links Menu"
 msgstr "Menu de redes sociais"
 
 #. translators: %s: Post title. Only visible to screen readers.
-#: inc/template-tags.php:206
+#: inc/template-tags.php:207
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 
@@ -97,7 +114,7 @@ msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 msgid "Footer Menu"
 msgstr "Menu do rodapé"
 
-#: template-parts/content-cover.php:138 template-parts/content.php:48
+#: template-parts/content.php:48 template-parts/content-cover.php:138
 msgid "Pages:"
 msgstr "Páginas:"
 
@@ -105,11 +122,11 @@ msgstr "Páginas:"
 msgid "Footer"
 msgstr "Rodapé"
 
-#: template-parts/content-cover.php:138 template-parts/content.php:48
+#: template-parts/content.php:48 template-parts/content-cover.php:138
 msgid "Page"
 msgstr "Página"
 
-#: functions.php:499
+#: functions.php:494
 msgid "Secondary"
 msgstr "Secundária"
 
@@ -134,7 +151,7 @@ msgid "Social links"
 msgstr "Redes sociais"
 
 #. translators: %s: Author name.
-#: inc/template-tags.php:354 template-parts/entry-author-bio.php:20
+#: template-parts/entry-author-bio.php:20 inc/template-tags.php:357
 msgid "By %s"
 msgstr "Por %s"
 
@@ -156,16 +173,16 @@ msgstr "Pesquisar &hellip;"
 msgid "Search:"
 msgstr "Pesquisar:"
 
-#: inc/template-tags.php:445
+#: inc/template-tags.php:448
 msgid "Sticky post"
 msgstr "Artigo fixo"
 
-#: inc/template-tags.php:407
+#: inc/template-tags.php:410
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: inc/template-tags.php:389 template-parts/entry-header.php:36
-#: template-parts/content-cover.php:70
+#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
+#: inc/template-tags.php:392
 msgid "Categories"
 msgstr "Categorias"
 
@@ -185,62 +202,62 @@ msgstr "Pesquisar"
 msgid "Continue reading"
 msgstr "Continuar a ler"
 
-#: functions.php:551
+#: functions.php:546
 msgctxt "Short name of the larger font size in the block editor."
 msgid "XL"
 msgstr "XL"
 
-#: functions.php:545
+#: functions.php:540
 msgctxt "Short name of the large font size in the block editor."
 msgid "L"
 msgstr "L"
 
-#: functions.php:544
+#: functions.php:539
 msgctxt "Name of the large font size in the block editor"
 msgid "Large"
 msgstr "Grande"
 
-#: functions.php:539
+#: functions.php:534
 msgctxt "Short name of the regular font size in the block editor."
 msgid "M"
 msgstr "M"
 
-#: functions.php:538
+#: functions.php:533
 msgctxt "Name of the regular font size in the block editor"
 msgid "Regular"
 msgstr "Normal"
 
-#: functions.php:533
+#: functions.php:528
 msgctxt "Short name of the small font size in the block editor."
 msgid "S"
 msgstr "S"
 
-#: functions.php:532
+#: functions.php:527
 msgctxt "Name of the small font size in the block editor"
 msgid "Small"
 msgstr "Pequeno"
 
-#: functions.php:517
+#: functions.php:512
 msgid "Background Color"
 msgstr "Cor de fundo"
 
-#: functions.php:504
+#: functions.php:499
 msgid "Subtle Background"
 msgstr "Fundo subtil"
 
-#: functions.php:489
+#: functions.php:484
 msgid "Accent Color"
 msgstr "Cor de destaque"
 
-#: functions.php:378
+#: functions.php:377
 msgid "Footer #2"
 msgstr "Rodapé #2"
 
-#: functions.php:366
+#: functions.php:365
 msgid "Footer #1"
 msgstr "Rodapé #1"
 
-#: functions.php:341
+#: functions.php:340
 msgid "Skip to the content"
 msgstr "Saltar para o conteúdo"
 
@@ -256,7 +273,7 @@ msgstr "Comentários mais antigos"
 msgid "Newer Comments"
 msgstr "Comentários mais recentes"
 
-#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:555
+#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:558
 msgid "Show sub menu"
 msgstr "Mostrar submenu"
 
@@ -293,15 +310,15 @@ msgstr "<span class=\"nav-short\">Artigos</span> mais antigos"
 msgid "Newer <span class=\"nav-short\">Posts</span>"
 msgstr "<span class=\"nav-short\">Artigos</span> mais recentes"
 
-#: inc/template-tags.php:371
+#: inc/template-tags.php:374
 msgid "Post date"
 msgstr "Data do artigo"
 
-#: inc/template-tags.php:347
+#: inc/template-tags.php:350
 msgid "Post author"
 msgstr "Autor do artigo"
 
-#: functions.php:550
+#: functions.php:545
 msgctxt "Name of the larger font size in the block editor"
 msgid "Larger"
 msgstr "Muito grande"
