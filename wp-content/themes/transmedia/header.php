@@ -17,13 +17,16 @@
     ============================================= -->
     <header>
 
-        <nav class="navbar fixed-top bg-light shadow">
+        <nav class="navbar fixed-top bg-light">
 
-            <div class="navbar-brand mx-auto img-fluid align-logo-start-page">
+            <div class="container">
+
+                <div class="navbar-brand img-fluid">
                 <!-- Logo
                 ============================================= -->
                 <?php
-                if (has_custom_logo() ) {
+
+                    if (has_custom_logo() ) {
                     $custom_logo_id = get_theme_mod( 'custom_logo' );
                     $image = wp_get_attachment_image_src($custom_logo_id , 'full');
                     $image_alt = get_post_meta($custom_logo_id, '_wp_attachment_image_alt', true);
@@ -36,10 +39,14 @@
 
                     </a>
 
-                    <?php //the_custom_logo();
+                <?php //the_custom_logo();
+
                 } else {
-                    ?><?php bloginfo('name'); ?><?php
+
+                    bloginfo('name');
+
                 }
+
                 ?>
                 <!-- #logo end -->
 
@@ -49,6 +56,9 @@
                     <span class="icon-bar bottom-bar"></span>
                     <span class="toggle-primary-label"></span>
                 </button>
+
+                </div>
+
             </div>
 
             <div id="mainMenu" class="collapse navbar-primary-collapse shadow">

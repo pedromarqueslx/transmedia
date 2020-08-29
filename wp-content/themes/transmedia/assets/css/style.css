@@ -27,7 +27,7 @@
 /* ----------------------------------------------------------------
 	1.Typography
 -----------------------------------------------------------------*/
-/*
+
 @font-face {
     font-family : Roboto;
     src : url("../fonts/Roboto-Regular.ttf") format("truetype");
@@ -39,25 +39,27 @@
     src : url("../fonts/Roboto-Bold.ttf") format("truetype");
     font-weight: 700;
 }
-*/
+
 
 h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.3em;
     font-family: 'Roboto', sans-serif;
     color: #003359;
+    font-weight: 400;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 1.4em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
     color: #003359;
+    font-weight: 400;
 }
 
 h3 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     line-height: 1.4em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
@@ -89,11 +91,11 @@ h6 {
 }
 
 p {
-    font-size: 0.9rem;
-    line-height: 1.55em;
+    font-size: 0.95rem;
+    line-height: 1.6em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
-    color: #003359;
+    color: #666;
 }
 
 .warning {
@@ -119,7 +121,7 @@ select.invalid {
 }
 
 a {
-    color: #FF7800;
+    color: #003359;
     text-decoration: none;
 }
 
@@ -556,8 +558,8 @@ navbar-light {
     background: transparent !important;
     z-index: 10;
     position: absolute;
-    right: 0;
-    top: 10px;
+    right: 2rem;
+    top: 1rem;
 }
 
 .navbar-toggler .icon-bar {
@@ -612,18 +614,10 @@ navbar-light {
     /*
     background: transparent !important;
     */
-    padding: 0 2rem 0 2rem;
-    height: 100px;
+    /*padding: 0 2rem 0 2rem;*/
+    height: 80px;
     z-index: 2030;
 }
-
-/*
-.navbar-collapse {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #003359;
-}*/
 
 .primary-menu-bg-color {
     background: white !important;

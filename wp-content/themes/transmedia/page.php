@@ -2,7 +2,7 @@
 
 get_header (); ?>
 
-    <div class="container pt-3">
+    <div class="container p-3">
 
      <!-- Page Content
      ============================================= -->
