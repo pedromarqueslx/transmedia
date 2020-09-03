@@ -1,10 +1,7 @@
 
 
-<button onclick="topFunction()" id="gotoTop">
+<button onclick="topFunction()" id="gotoTop" class="goto-top"></button>
 
-    <img src="http://www.ocm.ch/wp-content/uploads/2020/07/arrow-left.svg" style="rotate: 90deg; width: 10px; margin-top: -4px">
-
-</button>
 
 <script>
     //Get the button

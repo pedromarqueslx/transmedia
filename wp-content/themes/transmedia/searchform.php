@@ -8,9 +8,7 @@
                value="<?php the_search_query(); ?>"
                placeholder="<?php _e( 'Suche', 'transmedia' ); ?>"/>
 
-        <button type="submit" class="btn">
-            <img src="http://www.ocm.ch/wp-content/uploads/2020/07/arrow-left.svg" style="rotate: 180deg; width: 10px; margin-top: -2px">
-        </button>
+        <button type="submit" class="btn btn-search"></button>
 
     </div>
 
