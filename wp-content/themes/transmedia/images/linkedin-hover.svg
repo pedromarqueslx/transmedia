@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168" height="168" viewBox="0 0 168 168">
+  <defs>
+    <filter id="Ellipse_6" x="0" y="0" width="168" height="168" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.373"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_44" data-name="Group 44" transform="translate(-1137 -5436)">
+    <g transform="matrix(1, 0, 0, 1, 1137, 5436)" filter="url(#Ellipse_6)">
+      <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="75" cy="75" r="75" transform="translate(9 3)" fill="#374450"/>
+    </g>
+    <path id="Path_29" data-name="Path 29" d="M692.5,343.194v25.947h12.356V333.8H692.5Zm52.708,1.462c-.814-6.7-3.868-10.859-12.91-10.859-5.3,0-8.876,1.951-10.372,4.78h-.163V333.8h-9.854v35.344h10.308V351.616c0-4.619.911-9.072,6.571-9.072,5.688,0,6.11,5.267,6.11,9.4v17.2h10.6V349.729a41.4,41.4,0,0,0-.292-5.073Zm-46.53-28.516a6.178,6.178,0,1,0,6.177,6.178,6.178,6.178,0,0,0-6.177-6.178Z" transform="translate(502.5 5170.86)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

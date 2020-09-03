@@ -42,20 +42,20 @@
 
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     line-height: 1.3em;
     font-family: 'Roboto', sans-serif;
     color: #003359;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 1.4em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
     color: #003359;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 h3 {
