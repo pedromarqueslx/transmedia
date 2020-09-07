@@ -10,6 +10,7 @@ function cf_misc_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_btn_quote_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -27,6 +28,7 @@ function cf_misc_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_btn_quote_link_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -43,7 +45,9 @@ function cf_misc_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_footer-image_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
+
     // ADD CONTROL
     $wp_customize->add_control(new WP_Customize_Control(
         $wp_customize,
@@ -57,8 +61,10 @@ function cf_misc_customizer_section ( $wp_customize ) {
     ));
 
     $wp_customize->add_setting( 'ju_footer_copyright_text', array(
-        'default'       => 'Copyright &copy; 2019 All Rights Reserved by transmedia',
-        ));
+        'sanitize_callback' => 'sanitize_textarea_field',
+        'default'       => 'Copyright &copy; 2020 All Rights Reserved by transmedia',
+    ));
+
     $wp_customize->add_control(new WP_Customize_Control(
         $wp_customize,
         'ju_footer_copyright_text_input',
@@ -71,7 +77,9 @@ function cf_misc_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_footer_tos_page', array(
         'default'       => 0,
-        ));
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+
     $wp_customize->add_control(new WP_Customize_Control(
         $wp_customize,
         'ju_footer_tos_page_input',
@@ -85,7 +93,9 @@ function cf_misc_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_footer_privacy_page', array(
         'default'       => 0,
-        ));
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+
     $wp_customize->add_control(new WP_Customize_Control(
         $wp_customize,
         'ju_footer_privacy_page_input',
@@ -96,15 +106,4 @@ function cf_misc_customizer_section ( $wp_customize ) {
             'type'           => 'dropdown-pages'
         )
     ));
-
-
-
-
-
-
-
-
-
-
-
 }

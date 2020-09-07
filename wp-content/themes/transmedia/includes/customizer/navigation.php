@@ -12,6 +12,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_footelinkstitle_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -24,10 +25,11 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
                 'settings'       => 'ju_footelinkstitle_handle',
                 'type'           => 'text'
             )
-        ));
+    ));
 
     $wp_customize->add_setting( 'ju_navigationpagemenu_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -44,6 +46,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu1_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -60,6 +63,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu2_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -76,6 +80,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu3_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -92,6 +97,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu4_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -108,6 +114,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu5_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -124,6 +131,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu6_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -140,6 +148,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu7_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -156,6 +165,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu8_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -172,6 +182,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu9_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -189,6 +200,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu10_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -205,6 +217,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu11_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -221,6 +234,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu12_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -237,6 +251,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu13_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -253,6 +268,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu14_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -269,6 +285,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu15_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -285,6 +302,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu16_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -301,6 +319,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu17_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -317,6 +336,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu18_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -334,6 +354,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_footelinkstitle_second_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -350,6 +371,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu19_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -366,6 +388,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu20_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -382,6 +405,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu21_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -397,6 +421,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu22_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -412,6 +437,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu23_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -427,6 +453,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu24_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -442,6 +469,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu25_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -457,6 +485,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu26_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -472,6 +501,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu27_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -487,6 +517,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu28_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -502,6 +533,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu29_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -517,6 +549,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu30_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -532,6 +565,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu31_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -547,6 +581,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu32_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -562,6 +597,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu33_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -577,6 +613,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu34_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -592,6 +629,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
         ));
     $wp_customize->add_setting( 'ju_navigationpagemenu35_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -608,6 +646,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu36_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -624,6 +663,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu37_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -640,6 +680,7 @@ function cf_footernavigation_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_navigationpagemenu38_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(

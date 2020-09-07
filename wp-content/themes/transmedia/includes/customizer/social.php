@@ -11,6 +11,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_rateus_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -27,6 +28,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_footeAddressTitle_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -43,6 +45,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_google_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -59,6 +62,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
 	$wp_customize->add_setting( 'ju_facebook_handle', array(
 		'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
 		));
 
     $wp_customize->add_control(
@@ -75,6 +79,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_linkedin_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -91,6 +96,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_facebook_link_input_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -107,6 +113,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_instagram_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -123,6 +130,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_twitter_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -139,6 +147,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_youtube_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -155,6 +164,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_pinterest_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -171,6 +181,7 @@ function cf_social_customizer_section ( $wp_customize ) {
 
 	$wp_customize->add_setting( 'ju_phone_handle', array(
 		'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
 		));
 
     $wp_customize->add_control(
@@ -185,8 +196,44 @@ function cf_social_customizer_section ( $wp_customize ) {
             )
         ));
 
+    $wp_customize->add_setting( 'ju_address_name_handle', array(
+        'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_address_name_input',
+            array(
+                'label'          => __( 'Address Name', 'transmedia' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_address_name_handle',
+                'type'           => 'text'
+            )
+        ));
+
+    $wp_customize->add_setting( 'ju_address_online_handle', array(
+        'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_address_online_input',
+            array(
+                'label'          => __( 'URL', 'transmedia' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_address_online_handle',
+                'type'           => 'url'
+            )
+        ));
+
+
     $wp_customize->add_setting( 'ju_address_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -201,8 +248,27 @@ function cf_social_customizer_section ( $wp_customize ) {
             )
         ));
 
+    $wp_customize->add_setting( 'ju_address_postal_code_handle', array(
+        'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_address_postal_code_input',
+            array(
+                'label'          => __( 'Postal Code', 'transmedia' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_address_postal_code_handle',
+                'type'           => 'text'
+            )
+        ));
+
+
     $wp_customize->add_setting( 'ju_email_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
@@ -219,17 +285,69 @@ function cf_social_customizer_section ( $wp_customize ) {
 
     $wp_customize->add_setting( 'ju_working_hours_handle', array(
         'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
     ));
 
     $wp_customize->add_control(
         new WP_Customize_Control(
             $wp_customize,
-            'ju_email_input',
+            'ju_working_hours_input',
             array(
                 'label'          => __( 'Working Hours', 'transmedia' ),
                 'section'        => 'ju_social_section',
                 'settings'       => 'ju_working_hours_handle',
-                'type'           => 'textarea'
+                'type'           => 'text'
+            )
+        ));
+
+    $wp_customize->add_setting( 'ju_working_hours_week_handle', array(
+        'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_working_hours_week_input',
+            array(
+                'label'          => __( 'Week Hours', 'transmedia' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_working_hours_week_handle',
+                'type'           => 'text'
+            )
+        ));
+
+    $wp_customize->add_setting( 'ju_working_hours_saturday_handle', array(
+        'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_working_hours_saturday_input',
+            array(
+                'label'          => __( 'Saturday Hours', 'transmedia' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_working_hours_saturday_handle',
+                'type'           => 'text'
+            )
+        ));
+
+    $wp_customize->add_setting( 'ju_working_hours_sunday_handle', array(
+        'default' 		=> '',
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'ju_working_hours_sunday_input',
+            array(
+                'label'          => __( 'Sunday Hours', 'transmedia' ),
+                'section'        => 'ju_social_section',
+                'settings'       => 'ju_working_hours_sunday_handle',
+                'type'           => 'text'
             )
         ));
 

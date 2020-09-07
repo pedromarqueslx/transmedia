@@ -45,7 +45,7 @@ h1 {
     font-size: 1.4rem;
     line-height: 1.3em;
     font-family: 'Roboto', sans-serif;
-    color: #003359;
+    color: #374450;
     font-weight: 700;
 }
 
@@ -54,7 +54,7 @@ h2 {
     line-height: 1.4em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
-    color: #003359;
+    color: #374450;
     font-weight: 700;
 }
 
@@ -63,7 +63,7 @@ h3 {
     line-height: 1.4em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
-    color: #003359;
+    color: #374450;
 }
 
 h4 {
@@ -71,7 +71,7 @@ h4 {
     line-height: 1.4em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
-    color: #003359;
+    color: #374450;
 }
 
 h5 {
@@ -79,7 +79,7 @@ h5 {
     line-height: 1.1em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
-    color: #003359;
+    color: #374450;
 }
 
 h6 {
@@ -87,7 +87,7 @@ h6 {
     line-height: 1.1em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
-    color: #003359;
+    color: #374450;
 }
 
 p {
@@ -95,7 +95,7 @@ p {
     line-height: 1.6em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
-    color: #666;
+    color: #374450;
 }
 
 .warning {
@@ -121,7 +121,7 @@ select.invalid {
 }
 
 a {
-    color: #003359;
+    color: #374450;
     text-decoration: none;
 }
 
@@ -130,9 +130,11 @@ a:hover {
 }
 
 li {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    line-height: 1.6em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
+    color: #374450;
 }
 
 small, figcaption {
@@ -150,7 +152,7 @@ footer h5 {
     margin-bottom: 15px;
 }
 
-footer a, li, footer p {
+footer a, footer li, footer p {
     color: #FFFFFF;
 }
 
@@ -207,18 +209,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     text-shadow: 1px 1px 2px rgba(22, 77, 91, 0.1);
-}
+}*/
 
-dl, ol, ul {
+/*dl, ol, ul {
 
-}
+}*/
 
 .btn {
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
@@ -293,7 +295,7 @@ dl, ol, ul {
 }
 
 .section-products-intro {
-    background-color: #003359;
+    background-color: #374450;
     background-size: cover;
     min-height: 260px;
 }
@@ -307,25 +309,25 @@ dl, ol, ul {
 }
 
 .section-travel-search h2 {
-    color: #003359;
+    color: #374450;
     font-weight: 700;
     font-size: 30px;
     line-height: 0.9;
 }
 
 .section-travel-search p {
-    color: #003359;
+    color: #374450;
     font-weight: 400;
     font-size: 1em;
     line-height: 1.2;
 }
 
 .section-travel-direction {
-    background-color: #003359;
+    background-color: #374450;
     z-index: 20;
     min-height: 500px;
     margin-bottom: 0;
-    border: 1px solid #003359;
+    border: 1px solid #374450;
 }
 
 .section-travel-direction h1 {
@@ -339,24 +341,24 @@ dl, ol, ul {
 }
 
 .section-slider-posts, .section-slider-posts li {
-    color: #003359;
+    color: #374450;
     font-weight: 400;
 }
 
 .section-slider-posts h1 {
-    color: #003359;
+    color: #374450;
     font-weight: 700;
     text-decoration: none;
 }
 
 .section-slider-posts h2 {
-    color: #003359;
+    color: #374450;
     font-weight: 700;
     text-decoration: none;
 }
 
 .section-slider-posts h3 {
-    color: #003359;
+    color: #374450;
     font-weight: 700;
     text-decoration: none;
 }
@@ -371,22 +373,22 @@ dl, ol, ul {
 }
 
 .section-uber-uns h1 {
-    color: #003359;
+    color: #374450;
 }
 
 .section-uber-uns h2 {
-    color: #003359;
+    color: #374450;
 }
 .section-uber-uns h3 {
-    color: #003359;
+    color: #374450;
 }
 
 .section-uber-uns p {
-    color: #003359;
+    color: #374450;
 }
 
 .section-uber-uns figcaption {
-    color: #003359;
+    color: #374450;
 }
 
 .section-travel-products-banner {
@@ -451,7 +453,7 @@ nav.navigation .screen-reader-text {
 }
 
 .nav-links span.page-numbers.current {
-    color: #003359;
+    color: #374450;
     background-color: #FF7800;
     border-radius: 50%;
 }
@@ -464,7 +466,7 @@ h2.screen-reader-text {
 }
 
 .section-fun-charts h2 {
-    color: #003359;
+    color: #374450;
     font-weight: 700;
     font-size: 1.4em;
     text-decoration: none;
@@ -504,7 +506,7 @@ h2.screen-reader-text {
 
 #logo a {
     display: block;
-    color: #003359;
+    color: #374450;
 }
 
 #logo img {
@@ -538,7 +540,7 @@ navbar-light {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #003359;
+    background-color: #374450;
     width: 100%;
     min-height: 100%;
     transition: ease all .2s;
@@ -762,7 +764,7 @@ navbar-light {
 }
 
 .background-light-green {
-    background-color: #003359;
+    background-color: #374450;
     width: 300px;
     height: 100px;
 }
@@ -969,8 +971,8 @@ body .carousel-control-next-icon {
 -----------------------------------------------------------------*/
 
 .btn-default {
-    background-color: #003359;
-    border: 3px solid #003359;
+    background-color: #374450;
+    border: 3px solid #374450;
     color: #FFFFFF;
     font-weight: 700;
     text-align: center;
@@ -988,7 +990,7 @@ body .carousel-control-next-icon {
 }
 
 .btn-previous {
-    background-color: #003359;
+    background-color: #374450;
     border: 3px solid #FFFFFF;
     color: #FFFFFF;
     font-size: 20px;
@@ -1001,11 +1003,11 @@ body .carousel-control-next-icon {
 .btn-previous:hover {
     background-color: #FF7800;
     border: 3px solid #FFFFFF;
-    color: #003359;
+    color: #374450;
 }
 
 .btn-next {
-    background-color: #003359;
+    background-color: #374450;
     border: 3px solid #FFFFFF;
     color: #FFFFFF;
     font-size: 20px;
@@ -1017,20 +1019,20 @@ body .carousel-control-next-icon {
 
 .btn-next:hover {
     background-color: #FF7800;
-    color: #003359;
+    color: #374450;
 }
 
 .button-rate-us {
-    background-color: #003359;
-    border: 3px solid #003359;
+    background-color: #374450;
+    border: 3px solid #374450;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
     font-size: 22px;
     margin: 15px 0 15px;
     cursor: pointer;
-    padding: 12px 8px;
-    border-radius: 30px;
+    /*padding: 12px 8px;*/
+    border-radius: 10px;
     font-weight: 400;
     line-height: 1.2;
 }
@@ -1042,7 +1044,7 @@ body .carousel-control-next-icon {
     font-size: 22px;
     margin: 15px 0 15px;
     cursor: pointer;
-    padding: 12px 8px;
+    /*padding: 12px 8px;*/
 }
 
 .btn-search-menu {
@@ -1052,7 +1054,7 @@ body .carousel-control-next-icon {
     font-size: 0.9rem;
     cursor: pointer;
     padding: 4px 24px;
-    border-radius: 30px;
+    border-radius: 10px;
     font-weight: 600;
 }
 
@@ -1202,7 +1204,7 @@ div.wpcf7 .ajax-loader {
     right: 30px;
     bottom: 50px;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 10px;
     border: 0;
     background-image: url('../images/arrow-up.svg');
     background-repeat: no-repeat;
@@ -1435,7 +1437,7 @@ hr {
     margin-bottom: 0;
     background-color: rgba(0,0,0,.03);
     border-top: 1px solid #FF7800;
-    background-color: #003359;
+    background-color: #374450;
 }
 
 .card {
