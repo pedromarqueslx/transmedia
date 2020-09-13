@@ -2,7 +2,7 @@
 
 get_header (); ?>
 
-    <div class="container p-3">
+    <div class="">
 
      <!-- Page Content
      ============================================= -->
@@ -22,7 +22,7 @@ get_header (); ?>
 
         <?php
 
-            the_title( '<h1>', '</h1>' );
+            /*the_title( '<h1>', '</h1>' );*/
             the_content ();
 
         ?>
