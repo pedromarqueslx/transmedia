@@ -116,6 +116,10 @@ textarea.invalid {
     background-color: #ff00004f;
 }
 
+textarea.form-control {
+    height: 110px;
+}
+
 select.invalid {
     background-color: #ff00004f;
 }
@@ -989,10 +993,10 @@ body .carousel-control-next-icon {
     font-weight: 700;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     padding: 8px 60px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .btn-default:hover {
@@ -1040,7 +1044,7 @@ body .carousel-control-next-icon {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     margin: 15px 0 15px;
     cursor: pointer;
     /*padding: 12px 8px;*/
@@ -1053,7 +1057,7 @@ body .carousel-control-next-icon {
     background-color: #FF7800;
     border: 3px solid #FF7800;
     color: #FFFFFF !important;
-    font-size: 22px;
+    font-size: 18px;
     margin: 15px 0 15px;
     cursor: pointer;
     /*padding: 12px 8px;*/
@@ -1144,6 +1148,12 @@ label {
 .form-control-kinder-input {
     background-color: #d5e2e8;
     border: 3px solid #FF7800;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 0.5;
+    font-size: 0.9rem;
 }
 
 /* Form Alert

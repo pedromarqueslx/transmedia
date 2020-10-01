@@ -3,8 +3,8 @@ Contributors: crmperks, sbazzi, asif876
 Tags: contact form 7, contact form 7 mailchimp, connecting contact form 7 and mailchimp, mailchimp, contact form 7 mailchimp extension
 Requires at least: 3.8
 Tested up to: 5.5
-Stable tag: 1.0.7
-Version: 1.0.7
+Stable tag: 1.0.8
+Version: 1.0.8
 Requires PHP: 5.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -165,6 +165,10 @@ Mailchimp is a popular newletter service. You can create newsletter singup forms
 
 
 == Changelog ==
+
+= 1.0.8 =
+* fixed file field warning.
+* fixed dropdown fields.
 
 = 1.0.7 =
 * fixed mailchimp interest field.

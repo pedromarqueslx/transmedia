@@ -1,7 +1,5 @@
 
-
 <button onclick="topFunction()" id="gotoTop" class="goto-top"></button>
-
 
 <script>
     //Get the button

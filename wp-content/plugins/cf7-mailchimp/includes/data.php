@@ -478,7 +478,7 @@ return $log;
 public function get_new_account() {
 global $wpdb;
  $table= $this->get_crm_table_name('accounts');
-$results = $wpdb->get_results( 'SELECT * FROM '.$table.' where status="9" limit 1',ARRAY_A );
+$results = $wpdb->get_results( 'SELECT * FROM '.$table.' where status=9 limit 1',ARRAY_A );
 $id=0; 
 if(count($results) == 0){
     $wpdb->insert($table,array("status"=>"9"));
@@ -505,9 +505,9 @@ return $res;
 * @param mixed $id
 */
 public function get_account($id) {
-global $wpdb;
+global $wpdb; $id=(int)$id;
  $table= $this->get_crm_table_name('accounts');
-$res=$wpdb->get_row( 'SELECT * FROM '.$table.' where id="'.$id.'" limit 1',ARRAY_A );
+$res=$wpdb->get_row( 'SELECT * FROM '.$table.' where id='.$id.' limit 1',ARRAY_A );
 return $res;
 }
 /**
@@ -530,9 +530,9 @@ global $wpdb;
  $table= $this->get_crm_table_name('accounts');
  $sql='SELECT * FROM '.$table.' where';
  if($verified){
- $sql.=' status ="1"';
+ $sql.=' status =1';
  }else{
-     $sql.=' status !="9"';
+     $sql.=' status !=9';
  }
  $sql.=' limit 100';
 $results = $wpdb->get_results( $sql ,ARRAY_A );
