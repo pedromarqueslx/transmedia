@@ -91,8 +91,8 @@ h6 {
 }
 
 p {
-    font-size: 0.95rem;
-    line-height: 1.6em;
+    font-size: 1rem;
+    line-height: 1.8em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
     color: #374450;
@@ -523,10 +523,10 @@ h2.screen-reader-text {
 -----------------------------------------------------------------*/
 
 .navbar-nav li a {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .03rem;
-    line-height: 3.8rem;
+    line-height: 5rem;
     color: white;
     font-weight: 600;
 }
@@ -845,7 +845,7 @@ body .carousel-control-next-icon {
     -moz-animation: bounce 3s infinite;
     -webkit-animation: bounce 3s infinite;
     animation: bounce 3s infinite;
-    background-image: url('../images/arrow-down.svg');
+    /*background-image: url('../images/arrow-down.svg');*/
     background-repeat: no-repeat;
     width: 20px;
     margin-top: -3rem;
@@ -903,7 +903,7 @@ body .carousel-control-next-icon {
     }
 }
 
-
+/*
 .carousel-control-prev-icon-home {
     background-image: url('../images/arrow-left-home.svg');
     width: 44px;
@@ -918,7 +918,7 @@ body .carousel-control-next-icon {
     height: 34px;
     background-size: 44px 34px;
     margin-right: -30%;
-}
+}*/
 
 .carousel-control-prev-icon {
     background-image: url('../images/arrow-left.svg');
@@ -1158,13 +1158,10 @@ label {
 
 /* Form Alert
 -----------------------------------------------------------------*/
-/*.wpcf7-not-valid-tip {
-    color: #FF0000;
-}
 
-span.wpcf7-not-valid-tip {
+.wpcf7-not-valid-tip {
     color: #FF0000;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: normal;
     display: block;
 }
@@ -1203,6 +1200,13 @@ div.wpcf7 .ajax-loader {
     background-image: url('../../images/ajax-loader.gif');
     width: 24px;
     height: 24px;
+}
+
+/*.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 0.8em;
+    font-weight: normal;
+    display: block;
 }*/
 
 /* ----------------------------------------------------------------
@@ -1258,7 +1262,7 @@ div.wpcf7 .ajax-loader {
 .primary-footer-background-color {
     background: #FF7800;
     color: white;
-    min-height: 130px;
+    /*min-height: 130px;*/
 }
 
 .primary-footer-background-color li {
@@ -1349,12 +1353,12 @@ ul.social-links {
     background-image: url('../images/pintrest-hover.svg');
 }
 
-hr {
+/*hr {
     margin-top: 2rem;
     margin-bottom: -2rem;
     border: 0;
     border-top: 1px solid rgb(255, 255, 255);
-}
+}*/
 
 .si-menu-facebook {
     background: url('../images/menu-facebook.svg') no-repeat;
