@@ -14,13 +14,13 @@
 
         <nav class="navbar fixed-top">
 
-            <div class="navbar-brand img-fluid">
+            <div class="navbar-brand">
+
                 <!-- Logo
                 ============================================= -->
                  <?php
 
                     if (has_custom_logo() ) {
-
                     $custom_logo_id_home = get_theme_mod( 'home_page_logo' );
                     $custom_logo_id = get_theme_mod( 'custom_logo' );
                     $image = wp_get_attachment_image_src($custom_logo_id , 'full');
@@ -45,7 +45,7 @@
 
                       </a>
 
-                  </div>
+                 </div>
 
                  <?php
 

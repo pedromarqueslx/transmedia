@@ -563,7 +563,9 @@ navbar-light {
     border: 0;
     background: transparent !important;
     z-index: 10;
+    /*
     position: absolute;
+    */
     right: 2rem;
     top: 1rem;
 }
@@ -1196,11 +1198,11 @@ div.wpcf7-mail-sent-ng {
     color: #FF7800;
 }
 
-div.wpcf7 .ajax-loader {
+/*div.wpcf7 .ajax-loader {
     background-image: url('../../images/ajax-loader.gif');
     width: 24px;
     height: 24px;
-}
+}*/
 
 /*.wpcf7-not-valid-tip {
     color: #dc3232;
@@ -1490,6 +1492,7 @@ ul.social-links {
     height: 30%;
 }*/
 
+
 /* ----------------------------------------------------------------
 	14.CSS Keyframes
 -----------------------------------------------------------------*/
@@ -1546,6 +1549,19 @@ ul.social-links {
     }
     body .carousel-control-next-icon {
         margin: 0;
+    }
+    .carousel-item {
+        height: 100%;
+        min-height: 600px;
+        background: no-repeat center center scroll;
+        background-size: cover;
+    }
+
+    .carousel-item img {
+        height: 100%;
+        min-height: 600px;
+        background: no-repeat center center scroll;
+        background-size: cover;
     }
 }
 

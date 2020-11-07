@@ -7,7 +7,7 @@
 </head>
 
 <!-- body_class for add CSS classes to body -->
-<body <?php body_class ('no-transition stretched'); ?>>
+<body <?php body_class ('no-transition stretched'); ?> >
 
 <!-- Document Wrapper
 ============================================= -->
@@ -21,7 +21,7 @@
 
             <div class="container">
 
-                <div class="navbar-brand img-fluid">
+                <div class="navbar-brand">
                 <!-- Logo
                 ============================================= -->
                 <?php
@@ -50,14 +50,14 @@
                 ?>
                 <!-- #logo end -->
 
+                </div>
+
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar top-bar"></span>
                     <span class="icon-bar middle-bar"></span>
                     <span class="icon-bar bottom-bar"></span>
                     <span class="toggle-primary-label"></span>
                 </button>
-
-                </div>
 
             </div>
 
