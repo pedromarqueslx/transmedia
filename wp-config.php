@@ -1,6 +1,4 @@
 <?php
-
-
 /**
  * A configuração de base do WordPress
  *
@@ -15,28 +13,21 @@
  *
  * @package WordPress
  */
-
 // ** Definições de MySQL - obtenha estes dados do seu serviço de alojamento** //
 /** O nome da base de dados do WordPress */
 define('DB_NAME', 'transmed_transmed');
-
 /** O nome do utilizador de MySQL */
 //define('DB_USER', 'transmed_tm');
 define( 'DB_USER', 'pedro@26374' );
-
 /** A password do utilizador de MySQL  */
 //define('DB_PASSWORD', 'transmed_tm0123');
 define( 'DB_PASSWORD', 'pedro@26374' );
-
 /** O nome do serviddor de  MySQL  */
 define('DB_HOST', 'localhost');
-
 /** O "Database Charset" a usar na criação das tabelas. */
 define('DB_CHARSET', 'utf8mb4');
-
 /** O "Database Collate type". Se tem dúvidas não mude. */
 define('DB_COLLATE', '');
-
 /**#@+
  * Chaves Únicas de Autenticação.
  *
@@ -54,9 +45,7 @@ define('AUTH_SALT',        '#TfX%+e)@s<jxR-`;qLG}Zb7GX.ODlYX=4G$;t-gg%3[0!D}5Q~Z
 define('SECURE_AUTH_SALT', 'Dk(!}fn)+PR#Z>Lxy|dlW<HNrCh?pc|-{+2eUX!uMSY:?Bk41JB o-~>+U@2wBB-');
 define('LOGGED_IN_SALT',   '!FlKs1nr1jJ0m!W?i((~)*=Q8D4,!~8aK)/E!#-geHM[vTQ9{WSFmnlI{v%_(|V|');
 define('NONCE_SALT',       '$M;[!lBM5V+3&ctK?[u(4IC #GJV@}(e~mM]M$32Oi]e2r(5D^mag<7*b&BI|[3~');
-
 /**#@-*/
-
 /**
  * Prefixo das tabelas de WordPress.
  *
@@ -64,7 +53,6 @@ define('NONCE_SALT',       '$M;[!lBM5V+3&ctK?[u(4IC #GJV@}(e~mM]M$32Oi]e2r(5D^ma
  * instalação um prefixo único. Só algarismos, letras e underscores, por favor!
  */
 $table_prefix  = 'wp_';
-
 /**
  * Para developers: WordPress em modo debugging.
  *
@@ -73,12 +61,9 @@ $table_prefix  = 'wp_';
  * no seu ambiente de desenvolvimento.
  */
 define('WP_DEBUG', true);
-
 /* E é tudo. Pare de editar! */
-
 /** Caminho absoluto para a pasta do WordPress. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
-
 /** Define as variáveis do WordPress e ficheiros a incluir. */
 require_once(ABSPATH . 'wp-settings.php');

@@ -44,7 +44,7 @@ msgstr "Cor principal"
 msgid "From Signac to Matisse"
 msgstr "De Signac a Matisse"
 
-#: template-parts/modal-search.php:20 searchform.php:24
+#: searchform.php:24 template-parts/modal-search.php:20
 msgid "Search for:"
 msgstr "Pesquisar por:"
 
@@ -97,7 +97,7 @@ msgstr "Comentários"
 msgid "Comments are closed."
 msgstr "Os comentários estão fechados."
 
-#: functions.php:489 inc/starter-content.php:177 inc/starter-content.php:187
+#: inc/starter-content.php:177 inc/starter-content.php:187 functions.php:489
 msgid "Primary"
 msgstr "Principal"
 
@@ -114,7 +114,7 @@ msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 msgid "Footer Menu"
 msgstr "Menu do rodapé"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Pages:"
 msgstr "Páginas:"
 
@@ -122,7 +122,7 @@ msgstr "Páginas:"
 msgid "Footer"
 msgstr "Rodapé"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Page"
 msgstr "Página"
 
@@ -151,7 +151,7 @@ msgid "Social links"
 msgstr "Redes sociais"
 
 #. translators: %s: Author name.
-#: template-parts/entry-author-bio.php:20 inc/template-tags.php:357
+#: inc/template-tags.php:357 template-parts/entry-author-bio.php:20
 msgid "By %s"
 msgstr "Por %s"
 
@@ -181,8 +181,8 @@ msgstr "Artigo fixo"
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
-#: inc/template-tags.php:392
+#: inc/template-tags.php:392 template-parts/entry-header.php:36
+#: template-parts/content-cover.php:70
 msgid "Categories"
 msgstr "Categorias"
 

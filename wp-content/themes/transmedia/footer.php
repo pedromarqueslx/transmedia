@@ -505,8 +505,7 @@
                                 ?><?php echo esc_html (get_theme_mod( 'ju_footer_copyright_text' )); ?><?php
                             }
                             ?>
-                    </small></p>
-
+                        </small></p>
                 </div>
 
             </div>
@@ -527,7 +526,6 @@
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77903941-1"></script>
-
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

@@ -1,5 +1,5 @@
-# Translation of Plugins - Autoptimize Beta - Stable (latest release) in English (UK)
-# This file is distributed under the same license as the Plugins - Autoptimize Beta - Stable (latest release) package.
+# Translation of Plugins - Autoptimize - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Autoptimize - Stable (latest release) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2020-07-28 13:31:25+0000\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: en_GB\n"
-"Project-Id-Version: Plugins - Autoptimize Beta - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Autoptimize - Stable (latest release)\n"
 
 #: classes/autoptimizeConfig.php:410
 msgid "Enable 404 fallbacks?"
@@ -27,26 +27,26 @@ msgstr "Unload critical CSS after page load?"
 msgid "<h2>Fix render-blocking CSS!</h2><p>Significantly improve your first-paint times by making CSS non-render-blocking.</p><p>The next step is to sign up at <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">https://criticalcss.com</a> (this is a premium service, priced 2 GBP/month for membership and 5 GBP/month per domain) <strong>and get the API key, which you can copy from <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">the API-keys page</a></strong> and paste below.</p><p>If you have any questions or need support, head on over to <a href=\"https://wordpress.org/support/plugin/autoptimize\" target=\"_blank\">our support forum</a> and we'll help you get up and running in no time!</p>"
 msgstr "<h2>Fix render blocking CSS!</h2><p>Significantly improve your first paint times by making CSS non-render blocking.</p><p>The next step is to sign up at <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">https://criticalcss.com</a> (this is a premium service, priced at £2/month for membership and £5/month per domain) <strong>and get the API key, which you can copy from <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">the API keys page</a></strong> and paste below.</p><p>If you have any questions or need support, head on over to <a href=\"https://wordpress.org/support/plugin/autoptimize\" target=\"_blank\">our support forum</a> and we'll help you get up and running in no time!</p>"
 
-#: classes/autoptimizeCriticalCSSCore.php:418
+#: classes/autoptimizeCriticalCSSCore.php:422
 msgid "Please enter a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> API key to start."
 msgstr "Please enter a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> API key to start."
 
-#: classes/autoptimizeCriticalCSSCore.php:409
+#: classes/autoptimizeCriticalCSSCore.php:413
 msgid "Something went wrong when checking your API key, make sure you server can communicate with https://criticalcss.com and/ or try again later."
 msgstr "Something went wrong when checking your API key, make sure you server can communicate with https://criticalcss.com and/ or try again later."
 
-#: classes/autoptimizeCriticalCSSCore.php:389
-#: classes/autoptimizeCriticalCSSCore.php:407
+#: classes/autoptimizeCriticalCSSCore.php:393
+#: classes/autoptimizeCriticalCSSCore.php:411
 msgid "Your API key is invalid. Please enter a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> key."
 msgstr "Your API key is invalid. Please enter a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> key."
 
-#: classes/autoptimizeCriticalCSSCore.php:387
-#: classes/autoptimizeCriticalCSSCore.php:404
+#: classes/autoptimizeCriticalCSSCore.php:391
+#: classes/autoptimizeCriticalCSSCore.php:408
 msgid "Invalid"
 msgstr "Invalid"
 
-#: classes/autoptimizeCriticalCSSCore.php:380
-#: classes/autoptimizeCriticalCSSCore.php:398
+#: classes/autoptimizeCriticalCSSCore.php:384
+#: classes/autoptimizeCriticalCSSCore.php:402
 msgid "Valid"
 msgstr "Valid"
 
@@ -506,7 +506,7 @@ msgstr "PENDING"
 
 #: classes/critcss-inc/admin_settings_queue.js.php:66
 #: classes/critcss-inc/admin_settings_queue.js.php:72
-#: classes/autoptimizeCriticalCSSCore.php:416
+#: classes/autoptimizeCriticalCSSCore.php:420
 msgid "None"
 msgstr "None"
 
