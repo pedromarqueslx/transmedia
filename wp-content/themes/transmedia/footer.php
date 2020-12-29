@@ -2,7 +2,7 @@
 ============================================= -->
 <footer>
 
-    <div class="primary-footer-background-color">
+<!--    <div class="primary-footer-background-color">
 
         <div class="container">
 
@@ -11,12 +11,12 @@
                 <div class="col-sm-12 col-md-4 p-3">
 
                     <?php
-                    if( get_theme_mod( 'ju_btn_quote_handle' ) ){
-                        ?>
-                        <a class="btn btn-lg btn-block button-rate-us" href="<?php echo esc_html (get_theme_mod( 'ju_btn_quote_link_handle' )); ?>" title="<?php echo esc_html (get_theme_mod( 'ju_btn_quote_handle' )); ?>"><?php echo esc_html (get_theme_mod( 'ju_btn_quote_handle' )); ?></a>
+/*                    if( get_theme_mod( 'ju_btn_quote_handle' ) ){
+                        */?>
+                        <a class="btn btn-lg btn-block button-rate-us" href="<?php /*echo esc_html (get_theme_mod( 'ju_btn_quote_link_handle' )); */?>" title="<?php /*echo esc_html (get_theme_mod( 'ju_btn_quote_handle' )); */?>"><?php /*echo esc_html (get_theme_mod( 'ju_btn_quote_handle' )); */?></a>
                         <?php
-                    }
-                    ?>
+/*                    }
+                    */?>
 
                 </div>
 
@@ -24,7 +24,7 @@
 
         </div>
 
-    </div>
+    </div>-->
 
     <div class="secundary-footer-background-color">
 
@@ -133,84 +133,7 @@
                             <?php
                         }
                         ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu6_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu6_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu6_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu6_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu7_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu7_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu7_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu7_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu8_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu8_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu8_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu8_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu9_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu9_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu9_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu9_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu10_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu10_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu10_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu10_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu11_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu11_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu11_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu11_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu12_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu12_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu12_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu12_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu13_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu13_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu13_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu13_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu14_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu14_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu14_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu14_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu15_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu15_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu15_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu15_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu16_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu16_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu16_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu16_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu17_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu17_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu17_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu17_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu18_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu18_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu18_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu18_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
+
                     </ul>
 
                 </div>
@@ -237,132 +160,6 @@
                         <?php
                         if( get_theme_mod( 'ju_navigationpagemenu20_handle' ) ) {
                             ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu20_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu20_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu20_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu21_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu21_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu21_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu21_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu22_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu22_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu22_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu22_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu23_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu23_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu23_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu23_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu24_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu24_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu24_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu24_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu25_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu25_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu25_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu25_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu26_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu26_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu26_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu26_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu27_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu27_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu27_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu27_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu28_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu28_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu28_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu28_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu29_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu29_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu29_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu29_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu30_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu30_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu30_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu30_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu31_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu31_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu31_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu31_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu32_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu32_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu32_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu32_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu33_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu33_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu33_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu33_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu34_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu34_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu34_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu34_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu35_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu35_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu35_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu35_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu36_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu36_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu36_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu36_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu37_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu37_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu37_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu37_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu38_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu38_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu38_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu38_handle' )); ?></a></li>
                             <?php
                         }
                         ?>

@@ -29,73 +29,67 @@
 -----------------------------------------------------------------*/
 
 @font-face {
-    font-family : Roboto;
-    src : url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-family : Montserrat;
+    src : url("../fonts/Montserrat-Regular.ttf") format("truetype");
     font-weight: 400;
 }
 
 @font-face {
-    font-family : Roboto;
-    src : url("../fonts/Roboto-Bold.ttf") format("truetype");
+    font-family : Montserrat;
+    src : url("../fonts/Montserrat-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 
 
 h1 {
-    font-size: 1.4rem;
+    font-size: 38px;
     line-height: 1.3em;
-    font-family: 'Roboto', sans-serif;
-    color: #00487d;
+    font-family: 'Montserrat', sans-serif;
+    color: #00203E;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 38px;
     line-height: 1.4em;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: .03rem;
-    color: #00487d;
+    font-family: 'Montserrat', sans-serif;
+    color: #00203E;
     font-weight: 700;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 36px;
     line-height: 1.4em;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: .03rem;
-    color: #00487d;
+    font-family: 'Montserrat', sans-serif;
+    color: #00203E;
 }
 
 h4 {
-    font-size: 0.8rem;
+    font-size: 34px;
     line-height: 1.4em;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: .03rem;
-    color: #00487d;
+    font-family: 'Montserrat', sans-serif;
+    color: #00203E;
 }
 
 h5 {
-    font-size: 0.75rem;
+    font-size: 32px;
     line-height: 1.1em;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: .03rem;
-    color: #00487d;
+    font-family: 'Montserrat', sans-serif;
+    color: #00203E;
 }
 
 h6 {
-    font-size: 0.625rem;
+    font-size: 30px;
     line-height: 1.1em;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: .03rem;
-    color: #00487d;
+    font-family: 'Montserrat', sans-serif;
+    color: #00203E;
 }
 
 p {
-    font-size: 1rem;
-    line-height: 1.8em;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: .03rem;
-    color: #374450;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    color: #00203E;
 }
 
 .warning {
@@ -125,7 +119,7 @@ select.invalid {
 }
 
 a {
-    color: #374450;
+    color: #00203E;
     text-decoration: none;
 }
 
@@ -136,15 +130,15 @@ a:hover {
 li {
     font-size: 0.95rem;
     line-height: 1.6em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: .03rem;
-    color: #374450;
+    color: #00203E;
 }
 
 small, figcaption {
     font-size: 10px;
     line-height: 1.4em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
@@ -171,7 +165,7 @@ footer small {
 .extra-small time {
     font-size: 0.7rem;
     line-height: 1.3em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 0.05rem;
 }
@@ -210,27 +204,22 @@ body {
     /*min-height: 75rem;*/
     padding-top: 45px;
     font-size: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-
-/*h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-shadow: 1px 1px 2px rgba(22, 77, 91, 0.1);
-}*/
-
-/*dl, ol, ul {
-
-}*/
 
 .btn {
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
     box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 }
 
+
+/* ----------------------------------------------------------------
+	3.Rows
+-----------------------------------------------------------------*/
+
+.row-we-are-your-webdesing-team {
+    min-height: 500px;
+}
 /* ----------------------------------------------------------------
 	3.Sections
 -----------------------------------------------------------------*/
@@ -299,7 +288,7 @@ h6 {
 }
 
 .section-products-intro {
-    background-color: #374450;
+    background-color: #00203E;
     background-size: cover;
     min-height: 260px;
 }
@@ -313,25 +302,25 @@ h6 {
 }
 
 .section-travel-search h2 {
-    color: #374450;
+    color: #00203E;
     font-weight: 700;
     font-size: 30px;
     line-height: 0.9;
 }
 
 .section-travel-search p {
-    color: #374450;
+    color: #00203E;
     font-weight: 400;
     font-size: 1em;
     line-height: 1.2;
 }
 
 .section-travel-direction {
-    background-color: #374450;
+    background-color: #00203E;
     z-index: 20;
     min-height: 500px;
     margin-bottom: 0;
-    border: 1px solid #374450;
+    border: 1px solid #00203E;
 }
 
 .section-travel-direction h1 {
@@ -345,24 +334,24 @@ h6 {
 }
 
 .section-slider-posts, .section-slider-posts li {
-    color: #374450;
+    color: #00203E;
     font-weight: 400;
 }
 
 .section-slider-posts h1 {
-    color: #374450;
+    color: #00203E;
     font-weight: 700;
     text-decoration: none;
 }
 
 .section-slider-posts h2 {
-    color: #374450;
+    color: #00203E;
     font-weight: 700;
     text-decoration: none;
 }
 
 .section-slider-posts h3 {
-    color: #374450;
+    color: #00203E;
     font-weight: 700;
     text-decoration: none;
 }
@@ -377,22 +366,22 @@ h6 {
 }
 
 .section-uber-uns h1 {
-    color: #374450;
+    color: #00203E;
 }
 
 .section-uber-uns h2 {
-    color: #374450;
+    color: #00203E;
 }
 .section-uber-uns h3 {
-    color: #374450;
+    color: #00203E;
 }
 
 .section-uber-uns p {
-    color: #374450;
+    color: #00203E;
 }
 
 .section-uber-uns figcaption {
-    color: #374450;
+    color: #00203E;
 }
 
 .section-travel-products-banner {
@@ -457,7 +446,7 @@ nav.navigation .screen-reader-text {
 }
 
 .nav-links span.page-numbers.current {
-    color: #374450;
+    color: #00203E;
     background-color: #FF7800;
     border-radius: 50%;
 }
@@ -466,11 +455,11 @@ nav.navigation .screen-reader-text {
 h2.screen-reader-text {
     font-size: 1rem;
     line-height: 1.4em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section-fun-charts h2 {
-    color: #374450;
+    color: #00203E;
     font-weight: 700;
     font-size: 1.4em;
     text-decoration: none;
@@ -510,7 +499,7 @@ h2.screen-reader-text {
 
 #logo a {
     display: block;
-    color: #374450;
+    color: #00203E;
 }
 
 #logo img {
@@ -524,7 +513,7 @@ h2.screen-reader-text {
 
 .navbar-nav li a {
     font-size: 1.8rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: .03rem;
     line-height: 5rem;
     color: white;
@@ -544,7 +533,7 @@ navbar-light {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #374450;
+    background-color: #00203E;
     width: 100%;
     min-height: 100%;
     transition: ease all .2s;
@@ -770,7 +759,7 @@ navbar-light {
 }
 
 .background-light-green {
-    background-color: #374450;
+    background-color: #00203E;
     width: 300px;
     height: 100px;
 }
@@ -989,8 +978,8 @@ body .carousel-control-next-icon {
 -----------------------------------------------------------------*/
 
 .btn-default {
-    background-color: #374450;
-    border: 3px solid #374450;
+    background-color: #00203E;
+    border: 3px solid #00203E;
     color: #FFFFFF;
     font-weight: 700;
     text-align: center;
@@ -1008,7 +997,7 @@ body .carousel-control-next-icon {
 }
 
 .btn-previous {
-    background-color: #374450;
+    background-color: #00203E;
     border: 3px solid #FFFFFF;
     color: #FFFFFF;
     font-size: 20px;
@@ -1021,11 +1010,11 @@ body .carousel-control-next-icon {
 .btn-previous:hover {
     background-color: #FF7800;
     border: 3px solid #FFFFFF;
-    color: #374450;
+    color: #00203E;
 }
 
 .btn-next {
-    background-color: #374450;
+    background-color: #00203E;
     border: 3px solid #FFFFFF;
     color: #FFFFFF;
     font-size: 20px;
@@ -1037,12 +1026,12 @@ body .carousel-control-next-icon {
 
 .btn-next:hover {
     background-color: #FF7800;
-    color: #374450;
+    color: #00203E;
 }
 
 .button-rate-us {
-    background-color: #374450;
-    border: 3px solid #374450;
+    background-color: #00203E;
+    border: 3px solid #00203E;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
@@ -1134,7 +1123,7 @@ label {
     display: block;
     width: 100%;
     background-color: #FFFFFF;
-    border: 1px solid #374450;
+    border: 1px solid #00203E;
     color: #666666;
     height: 45px;
     font-size: 16px;
@@ -1272,7 +1261,7 @@ div.wpcf7-mail-sent-ng {
 }
 
 .secundary-footer-background-color {
-    background-color: #374450;
+    background-color: #00203E;
     color: white;
 }
 
@@ -1465,7 +1454,7 @@ ul.social-links {
     margin-bottom: 0;
     background-color: rgba(0,0,0,.03);
     border-top: 1px solid #FF7800;
-    background-color: #374450;
+    background-color: #00203E;
 }
 
 .card {
