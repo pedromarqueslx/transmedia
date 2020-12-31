@@ -152,6 +152,8 @@ footer h5 {
 
 footer a, footer li, footer p {
     color: #FFFFFF;
+    font-size: 0.95rem;
+    line-height: 1.6em;
 }
 
 footer a:hover {

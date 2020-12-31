@@ -2,88 +2,11 @@
 ============================================= -->
 <footer>
 
-<!--    <div class="primary-footer-background-color">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-sm-12 col-md-4 p-3">
-
-                    <?php
-/*                    if( get_theme_mod( 'ju_btn_quote_handle' ) ){
-                        */?>
-                        <a class="btn btn-lg btn-block button-rate-us" href="<?php /*echo esc_html (get_theme_mod( 'ju_btn_quote_link_handle' )); */?>" title="<?php /*echo esc_html (get_theme_mod( 'ju_btn_quote_handle' )); */?>"><?php /*echo esc_html (get_theme_mod( 'ju_btn_quote_handle' )); */?></a>
-                        <?php
-/*                    }
-                    */?>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>-->
-
     <div class="secundary-footer-background-color">
 
         <div class="container">
 
-            <div class="row">
-
-                <div class="col-sm-12 mt-0">
-
-                    <ul class="social-links text-center text-md-right mt-n4">
-                        <?php
-                        if( get_theme_mod( 'ju_facebook_link_input_handle' ) ){
-                            ?>
-                            <li><a href="https://facebook.com/<?php echo esc_html (get_theme_mod( 'ju_facebook_link_input_handle' )); ?>" target="_blank" title="Facebook"><div class="si-facebook"></div></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_instagram_handle' ) ){
-                            ?>
-                            <li><a href="https://instagram.com/<?php echo esc_html (get_theme_mod( 'ju_instagram_handle' )); ?>" target="_blank" title="Instagram"><div class="si-instagram"></div></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_linkedin_handle' ) ){
-                            ?>
-                            <li><a href="https://linkedin.com/<?php echo esc_html (get_theme_mod( 'ju_linkedin_handle' )); ?>" target="_blank" title="LinkedIn"><div class="si-linkedin"></div></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_youtube_handle' ) ){
-                            ?>
-                            <li><a href="https://youtube.com/<?php echo esc_html (get_theme_mod( 'ju_youtube_handle' )); ?>" target="_blank" title="Youtube"><div class="si-youtube"></div></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_twitter_handle' ) ){
-                            ?>
-                            <li><a href="https://twitter.com/<?php echo esc_html (get_theme_mod( 'ju_twitter_handle' )); ?>" target="_blank" title="Twitter"><div class="si-twitter d-none d-sm-block"></div></a></li>
-                            <?php
-                        }
-                        ?>
-                        <?php
-                        if( get_theme_mod( 'ju_pinterest_handle' ) ){
-                            ?>
-                            <li><a href="https://www.pinterest.com/<?php echo esc_html (get_theme_mod( 'ju_pinterest_handle' )); ?>" target="_blank" title="Pinterest"><div class="si-pinterest d-none d-sm-block"></div></a></li>
-                            <?php
-                        }
-                        ?>
-                    </ul>
-
-                </div>
-
-            </div>
-
-            <div class="row mt-5 mb-5">
+            <div class="row pt-5 pb-5">
 
                 <div class="col-sm-12 col-md-4">
 
@@ -138,57 +61,13 @@
 
                 </div>
 
+
                 <div class="col-sm-12 col-md-4">
 
                     <h5 class="pl-0 pl-md-2">
                         <?php
                         if( get_theme_mod( 'ju_footelinkstitle_second_handle' ) ){
                             ?><?php echo esc_html (get_theme_mod( 'ju_footelinkstitle_second_handle' )); ?>
-                            <?php
-                        }
-                        ?>
-                    </h5>
-
-                    <ul class="list-unstyled text-small pl-0 pl-md-2">
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu19_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( esc_html (get_theme_mod( 'ju_navigationpagemenu19_handle' ))); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu19_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu19_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        if( get_theme_mod( 'ju_navigationpagemenu20_handle' ) ) {
-                            ?><li><a href="<?php the_permalink ( get_theme_mod( 'ju_navigationpagemenu20_handle' )); ?>" title="<?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu20_handle' )); ?>"><?php echo get_the_title( get_theme_mod( 'ju_navigationpagemenu20_handle' )); ?></a></li>
-                            <?php
-                        }
-                        ?>
-
-                        <?php
-                        /*
-                        if ( has_nav_menu ('secondary') ) {
-                            wp_nav_menu (array(
-                                'theme_location'	=> 'secondary',
-                                'container'			=> 'true',
-                                'fallback_cb'		=> 'false',
-                                // no dropdown menus depth 1
-                                'depth'				=> 1,
-                                'menu_class'        => 'list-unstyled text-small',
-                                'add_li_class'      => 'text-muted'
-                            ));
-                        }
-                        */
-                        ?>
-                    </ul>
-
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-
-                    <h5 class="pl-0 pl-md-2">
-                        <?php
-                        if( get_theme_mod( 'ju_footeAddressTitle_handle' ) ){
-                            ?><?php echo esc_html (get_theme_mod( 'ju_footeAddressTitle_handle' )); ?>
                             <?php
                         }
                         ?>
@@ -210,6 +89,22 @@
                         <?php
                     }
                     ?>
+
+                </div>
+
+
+
+                <div class="col-sm-12 col-md-4">
+
+                    <h5 class="pl-0 pl-md-2">
+                        <?php
+                        if( get_theme_mod( 'ju_footeAddressTitle_handle' ) ){
+                            ?><?php echo esc_html (get_theme_mod( 'ju_footeAddressTitle_handle' )); ?>
+                            <?php
+                        }
+                        ?>
+                    </h5>
+
 
                     <?php
                     if( get_theme_mod( 'ju_phone_handle' ) ){
@@ -275,6 +170,61 @@
                         <?php
                     }
                     ?>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row">
+
+                <div class="col-sm-12 mt-0">
+
+                    <ul class="social-links text-center text-md-right mt-n4">
+                        <?php
+                        if( get_theme_mod( 'ju_facebook_link_input_handle' ) ){
+                            ?>
+                            <li><a href="https://facebook.com/<?php echo esc_html (get_theme_mod( 'ju_facebook_link_input_handle' )); ?>" target="_blank" title="Facebook"><div class="si-facebook"></div></a></li>
+                            <?php
+                        }
+                        ?>
+                        <?php
+                        if( get_theme_mod( 'ju_instagram_handle' ) ){
+                            ?>
+                            <li><a href="https://instagram.com/<?php echo esc_html (get_theme_mod( 'ju_instagram_handle' )); ?>" target="_blank" title="Instagram"><div class="si-instagram"></div></a></li>
+                            <?php
+                        }
+                        ?>
+                        <?php
+                        if( get_theme_mod( 'ju_linkedin_handle' ) ){
+                            ?>
+                            <li><a href="https://linkedin.com/<?php echo esc_html (get_theme_mod( 'ju_linkedin_handle' )); ?>" target="_blank" title="LinkedIn"><div class="si-linkedin"></div></a></li>
+                            <?php
+                        }
+                        ?>
+                        <?php
+                        if( get_theme_mod( 'ju_youtube_handle' ) ){
+                            ?>
+                            <li><a href="https://youtube.com/<?php echo esc_html (get_theme_mod( 'ju_youtube_handle' )); ?>" target="_blank" title="Youtube"><div class="si-youtube"></div></a></li>
+                            <?php
+                        }
+                        ?>
+                        <?php
+                        if( get_theme_mod( 'ju_twitter_handle' ) ){
+                            ?>
+                            <li><a href="https://twitter.com/<?php echo esc_html (get_theme_mod( 'ju_twitter_handle' )); ?>" target="_blank" title="Twitter"><div class="si-twitter d-none d-sm-block"></div></a></li>
+                            <?php
+                        }
+                        ?>
+                        <?php
+                        if( get_theme_mod( 'ju_pinterest_handle' ) ){
+                            ?>
+                            <li><a href="https://www.pinterest.com/<?php echo esc_html (get_theme_mod( 'ju_pinterest_handle' )); ?>" target="_blank" title="Pinterest"><div class="si-pinterest d-none d-sm-block"></div></a></li>
+                            <?php
+                        }
+                        ?>
+                    </ul>
 
                 </div>
 

@@ -8,23 +8,6 @@ function cf_misc_customizer_section ( $wp_customize ) {
         'panel'          => 'transmedia'
     ));
 
-    $wp_customize->add_setting( 'ju_btn_quote_handle', array(
-        'default' 		=> '',
-        'sanitize_callback' => 'sanitize_textarea_field',
-    ));
-
-    $wp_customize->add_control(
-        new WP_Customize_Control(
-            $wp_customize,
-            'ju_btn_quote_input',
-            array(
-                'label'          => __( 'Offerte-Anfrage Title', 'transmedia' ),
-                'section'        => 'ju_misc_section',
-                'settings'       => 'ju_btn_quote_handle',
-                'type'           => 'text'
-            )
-        ));
-
 
     $wp_customize->add_setting( 'ju_btn_quote_link_handle', array(
         'default' 		=> '',
