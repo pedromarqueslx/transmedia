@@ -58,28 +58,29 @@ h2 {
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 1.4em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
+    font-weight: 700;
 }
 
 h4 {
-    font-size: 34px;
+    font-size: 28px;
     line-height: 1.4em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
 }
 
 h5 {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 1.1em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
 }
 
 h6 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.1em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
@@ -222,6 +223,19 @@ body {
 .row-we-are-your-webdesing-team {
     min-height: 500px;
 }
+
+.row-covid  {
+    min-height: 600px;
+}
+
+.row-services {
+    min-height: 600px;
+}
+
+.col-services {
+    min-height: 400px;
+}
+
 /* ----------------------------------------------------------------
 	3.Sections
 -----------------------------------------------------------------*/
