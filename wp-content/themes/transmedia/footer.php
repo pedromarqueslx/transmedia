@@ -4,11 +4,11 @@
 
     <div class="secundary-footer-background-color">
 
-        <div class="container">
+        <div class="container-fluid">
 
-            <div class="row pt-5 pb-5">
+            <div class="row">
 
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 p-5">
 
                     <h5 class="pl-0 pl-md-2">
                         <?php
@@ -61,8 +61,7 @@
 
                 </div>
 
-
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 p-5">
 
                     <h5 class="pl-0 pl-md-2">
                         <?php
@@ -92,9 +91,7 @@
 
                 </div>
 
-
-
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 p-5">
 
                     <h5 class="pl-0 pl-md-2">
                         <?php
@@ -144,42 +141,13 @@
                     }
                     ?>
 
-
-                    <h5 class="pl-0 pl-md-2 pt-5">
-                        <?php
-                        if( get_theme_mod( 'ju_rateus_handle' ) ){
-                            ?><?php echo esc_html (get_theme_mod( 'ju_rateus_handle' )); ?>
-                            <?php
-                        }
-                        ?>
-                    </h5>
-
-                    <?php
-                    if( get_theme_mod( 'ju_google_handle' ) ){
-                        ?>
-                        <a class="btn btn-lg btn-block button-rate-us" href="https://g.page/<?php echo esc_html (get_theme_mod( 'ju_google_handle' )); ?>" target="_blank" title="auf Google">auf Google</a>
-
-                        <?php
-                    }
-                    ?>
-                    <?php
-                    if( get_theme_mod( 'ju_facebook_handle' ) ){
-                        ?>
-                        <a class="btn btn-lg btn-block button-rate-us" href="https://facebook.com/<?php echo esc_html (get_theme_mod( 'ju_facebook_handle' )); ?>" target="_blank" title="auf Facebook">auf Facebook</a>
-
-                        <?php
-                    }
-                    ?>
-
                 </div>
 
             </div>
 
-
-
             <div class="row">
 
-                <div class="col-sm-12 mt-0">
+                <div class="col-sm-12 mt-0 p-5">
 
                     <ul class="social-links text-center text-md-right mt-n4">
                         <?php
@@ -232,7 +200,7 @@
 
             <div class="row">
 
-                <div class="col-12 mt-n1">
+                <div class="col-12 mt-n1 p-5">
                     <?php
                     if ( get_theme_mod ( 'ju_footer-image_handle' )) {
                         ?><a href="<?php echo get_home_url(); ?>"><img src="<?php echo esc_html (get_theme_mod( 'ju_footer-image_handle' )); ?>" alt="<?php
@@ -246,13 +214,17 @@
                         ?>"></a><?php
                     }
                     ?>
-                    <p><small>
+
+                    <p>
+                        <small>
                             <?php
                             if (get_theme_mod( 'ju_footer_copyright_text' )) {
                                 ?><?php echo esc_html (get_theme_mod( 'ju_footer_copyright_text' )); ?><?php
                             }
                             ?>
-                        </small></p>
+                        </small>
+                    </p>
+
                 </div>
 
             </div>
@@ -272,7 +244,7 @@
 <?php wp_footer(); ?>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77903941-1"></script>
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77903941-1"></script>-->
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

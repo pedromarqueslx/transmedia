@@ -500,7 +500,7 @@ h2.screen-reader-text {
     margin-right: auto;
     font-size: 36px;
     line-height: 100%;
-    width: 220px;
+    width: 280px;
 }
 
 #header.full-header #logo {
@@ -576,14 +576,38 @@ navbar-light {
 }
 
 .navbar-toggler .icon-bar {
-    background-color: #d3d3d4;
     transform: rotate(0deg) translate(0px, 0px);
     transition: ease all .2s;
     display: block;
-    width: 40px;
     height: 2px;
     margin: 5px;
     border-radius: 3px;
+}
+
+
+button.navbar-toggler.collapsed:hover .icon-bar.top-bar {
+    width: 35px;
+}
+button.navbar-toggler.collapsed:hover .icon-bar.middle-bar {
+    width: 35px;
+}
+button.navbar-toggler.collapsed:hover .icon-bar.bottom-bar {
+    width: 35px;
+}
+
+.navbar-toggler .icon-bar.top-bar {
+    width: 20px;
+    background-color: #FF7800;
+}
+
+.navbar-toggler .icon-bar.middle-bar {
+    width: 40px;
+    background-color: #FC9437;
+}
+
+.navbar-toggler .icon-bar.bottom-bar {
+    width: 30px;
+    background-color: #B45500;
 }
 
 .navbar-toggler .toggle-primary-label:after {
@@ -604,8 +628,9 @@ navbar-light {
 
 .navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
     transform: rotate(45deg) translate(1px, 6px);
-    background-color: white;
+    background-color: #B45500;
     transition: ease all .2s;
+    width: 30px;
 }
 
 .navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
@@ -615,8 +640,9 @@ navbar-light {
 
 .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
     transform: rotate(-45deg) translate(4px, -10px);
-    background-color: white;
+    background-color: #B45500;
     transition: ease all .2s;
+    width: 30px;
 }
 
 /* ----------------------------------------------------------------
@@ -739,11 +765,6 @@ navbar-light {
     list-style: none;
 }
 
-/*#navbarsExample01 ul li {
-    width: 300px;
-    height: 120px;
-    border: 1px solid red;
-}*/
 
 .search-travel-destination-menu {
     width: 300px;
@@ -1241,13 +1262,12 @@ div.wpcf7-mail-sent-ng {
     border: 0;
     background-image: url('../images/arrow-up.svg');
     background-repeat: no-repeat;
-    margin-top: -4rem;
     background-size: 12px 12px;
     background-position: center;
     transition: 0.3s;
 }
 
-.stretched #gotoTop { bottom: 30px; }
+.stretched #gotoTop { bottom: 80px; }
 
 #gotoTop:hover { background-color: #FF7800; }
 

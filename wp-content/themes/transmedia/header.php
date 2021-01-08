@@ -17,9 +17,9 @@
     ============================================= -->
     <header>
 
-        <nav class="navbar fixed-top bg-light">
+        <nav class="navbar fixed-top" style="background-color: #00203E">
 
-            <div class="container">
+            <div class="container-fluid pl-sm-0 pl-md-5 pr-sm-0 pr-md-5">
 
                 <div class="navbar-brand">
                 <!-- Logo

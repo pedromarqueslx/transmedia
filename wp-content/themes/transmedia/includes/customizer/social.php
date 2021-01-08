@@ -9,22 +9,6 @@ function cf_social_customizer_section ( $wp_customize ) {
     ));
     // ::::::::::::::::::::: ADD SECTION :::::::::::::::::::::::::::: //
 
-    $wp_customize->add_setting( 'ju_rateus_handle', array(
-        'default' 		=> '',
-        'sanitize_callback' => 'sanitize_textarea_field',
-    ));
-
-    $wp_customize->add_control(
-        new WP_Customize_Control(
-            $wp_customize,
-            'ju_aboutus_input',
-            array(
-                'label'          => __( 'Footer Rate Title', 'transmedia' ),
-                'section'        => 'ju_social_section',
-                'settings'       => 'ju_rateus_handle',
-                'type'           => 'text'
-            )
-        ));
 
     $wp_customize->add_setting( 'ju_footeAddressTitle_handle', array(
         'default' 		=> '',
@@ -43,39 +27,6 @@ function cf_social_customizer_section ( $wp_customize ) {
             )
         ));
 
-    $wp_customize->add_setting( 'ju_google_handle', array(
-        'default' 		=> '',
-        'sanitize_callback' => 'sanitize_textarea_field',
-    ));
-
-    $wp_customize->add_control(
-        new WP_Customize_Control(
-            $wp_customize,
-            'ju_google_input',
-            array(
-                'label'          => __( 'Google Rate Us', 'transmedia' ),
-                'section'        => 'ju_social_section',
-                'settings'       => 'ju_google_handle',
-                'type'           => 'text'
-            )
-        ));
-
-	$wp_customize->add_setting( 'ju_facebook_handle', array(
-		'default' 		=> '',
-        'sanitize_callback' => 'sanitize_textarea_field',
-		));
-
-    $wp_customize->add_control(
-        new WP_Customize_Control(
-            $wp_customize,
-            'ju_facebook_input',
-            array(
-                'label'          => __( 'Facebook Rate Us', 'transmedia' ),
-                'section'        => 'ju_social_section',
-                'settings'       => 'ju_facebook_handle',
-                'type'           => 'text'
-            )
-        ));
 
     $wp_customize->add_setting( 'ju_linkedin_handle', array(
         'default' 		=> '',
