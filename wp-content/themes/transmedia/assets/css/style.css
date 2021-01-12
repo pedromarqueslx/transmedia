@@ -40,9 +40,8 @@
     font-weight: 700;
 }
 
-
 h1 {
-    font-size: 38px;
+    font-size: 2.4em;
     line-height: 1.3em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
@@ -50,15 +49,23 @@ h1 {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 2.3em;
     line-height: 1.4em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
     font-weight: 700;
 }
 
+.owl-item h2 {
+    font-size: 2.4em;
+    line-height: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
 h3 {
-    font-size: 30px;
+    font-size: 1.8em;
     line-height: 1.4em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
@@ -66,28 +73,28 @@ h3 {
 }
 
 h4 {
-    font-size: 28px;
+    font-size: 1.7em;
     line-height: 1.4em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
 }
 
 h5 {
-    font-size: 26px;
+    font-size: 1.6em;
     line-height: 1.1em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
 }
 
 h6 {
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 1.1em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 1.6em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
@@ -177,7 +184,7 @@ footer small {
 }
 
 .extra-small time {
-    font-size: 0.7rem;
+    font-size: 0.7em;
     line-height: 1.3em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -196,9 +203,6 @@ footer small {
 }
 
 .carousel h2 a {
-    /*
-    font-size:1.2rem;
-    */
     color: #707070;
     font-weight: 700;
     padding-left: 0.8rem;
@@ -538,11 +542,19 @@ h2.screen-reader-text {
 	Primary Menu
 -----------------------------------------------------------------*/
 
+.navbar-nav {
+    margin-top: 8%;
+}
+
+.navbar-nav li {
+    padding: 3% 0 3% 0;
+}
+
 .navbar-nav li a {
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .03rem;
-    line-height: 5rem;
+    line-height: 2rem;
     color: white;
     font-weight: 600;
 }
@@ -579,9 +591,6 @@ navbar-light {
     border: 0;
     background: transparent !important;
     z-index: 10;
-    /*
-    position: absolute;
-    */
     right: 2rem;
     top: 1rem;
 }
@@ -594,7 +603,6 @@ navbar-light {
     margin: 5px;
     border-radius: 3px;
 }
-
 
 button.navbar-toggler.collapsed:hover .icon-bar.top-bar {
     width: 35px;
@@ -661,10 +669,6 @@ button.navbar-toggler.collapsed:hover .icon-bar.bottom-bar {
 -----------------------------------------------------------------*/
 
 .navbar {
-    /*
-    background: transparent !important;
-    */
-    /*padding: 0 2rem 0 2rem;*/
     height: 80px;
     z-index: 2030;
 }
@@ -867,10 +871,6 @@ button.navbar-toggler.collapsed:hover .icon-bar.bottom-bar {
     height:auto;
 }
 
-/*body .carousel-indicators li {*/
-/*    background-color:red;*/
-/*}*/
-
 body .carousel-control-prev-icon {
     margin-left: -5rem;
 }
@@ -941,23 +941,6 @@ body .carousel-control-next-icon {
         transform: translateY(-15px);
     }
 }
-
-/*
-.carousel-control-prev-icon-home {
-    background-image: url('../images/arrow-left-home.svg');
-    width: 44px;
-    height: 34px;
-    background-size: 44px 34px;
-    margin-left: -30%;
-}
-
-.carousel-control-next-icon-home {
-    background-image: url('../images/arrow-right-home.svg');
-    width: 44px;
-    height: 34px;
-    background-size: 44px 34px;
-    margin-right: -30%;
-}*/
 
 .carousel-control-prev-icon {
     background-image: url('../images/arrow-left.svg');
@@ -1233,19 +1216,6 @@ div.wpcf7-mail-sent-ng {
     color: #FF7800;
 }
 
-/*div.wpcf7 .ajax-loader {
-    background-image: url('../../images/ajax-loader.gif');
-    width: 24px;
-    height: 24px;
-}*/
-
-/*.wpcf7-not-valid-tip {
-    color: #dc3232;
-    font-size: 0.8em;
-    font-weight: normal;
-    display: block;
-}*/
-
 /* ----------------------------------------------------------------
 	8.Go To Top
 -----------------------------------------------------------------*/
@@ -1298,7 +1268,6 @@ div.wpcf7-mail-sent-ng {
 .primary-footer-background-color {
     background: #FF7800;
     color: white;
-    /*min-height: 130px;*/
 }
 
 .primary-footer-background-color li {
@@ -1388,13 +1357,6 @@ ul.social-links {
 .si-pinterest:hover {
     background-image: url('../images/pintrest-hover.svg');
 }
-
-/*hr {
-    margin-top: 2rem;
-    margin-bottom: -2rem;
-    border: 0;
-    border-top: 1px solid rgb(255, 255, 255);
-}*/
 
 .si-menu-facebook {
     background: url('../images/menu-facebook.svg') no-repeat;
@@ -1506,27 +1468,6 @@ ul.social-links {
     border: 0;
 }
 
-/*.carousel-control-next, .carousel-control-prev {
-    position: absolute;
-    top: 40%;
-    bottom: 0;
-    z-index: 0;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 15%;
-    color: #fff;
-    text-align: center;
-    opacity: .5;
-    transition: opacity .15s ease;
-    border: 2px solid red;
-    height: 30%;
-}*/
-
-
 /* ----------------------------------------------------------------
 	14.CSS Keyframes
 -----------------------------------------------------------------*/
@@ -1575,15 +1516,55 @@ ul.social-links {
 @media (max-width: 575.98px) {  }
 
 @media (max-width: 767.98px) {
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    .owl-item h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+
+    h5 {
+        font-size: 1.4em;
+    }
+
+    h6 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .navbar-nav li a {
+        font-size: 1.2rem;
+    }
+
     .custom-logo {
         width: 180px;
     }
+
     body .carousel-control-prev-icon {
         margin: 0;
     }
+
     body .carousel-control-next-icon {
         margin: 0;
     }
+
     .carousel-item {
         height: 100%;
         min-height: 600px;
