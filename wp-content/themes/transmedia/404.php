@@ -16,9 +16,9 @@
 
                 <div class="col-md-6 pt-5 pb-5">
 
-                    <h1><?php _e('Ooopps.! Die von Ihnen gesuchte Seite konnte nicht gefunden werden.', 'transmedia'); ?></h1>
+                    <h1><?php _e('Ooopps.! A página que você está procurando não foi encontrada.', 'transmedia'); ?></h1>
 
-                    <p><?php _e('Suchen Sie nach dem besten Treffer oder navigieren Sie zur Startseite.', 'transmedia'); ?></p>
+                    <p><?php _e('Procure por melhor correspondência ou navegue até a página inicial.', 'transmedia'); ?></p>
 
                     <?php echo get_search_form(); ?>
 

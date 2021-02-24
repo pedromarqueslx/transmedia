@@ -28,7 +28,7 @@
 	1.Typography
 -----------------------------------------------------------------*/
 
-@font-face {
+/*@font-face {
     font-family : Montserrat;
     src : url("../fonts/Montserrat-Regular.ttf") format("truetype");
     font-weight: 400;
@@ -38,10 +38,10 @@
     font-family : Montserrat;
     src : url("../fonts/Montserrat-Bold.ttf") format("truetype");
     font-weight: 700;
-}
+}*/
 
 h1 {
-    font-size: 2.4em;
+    font-size: 2.2em;
     line-height: 1.3em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
@@ -49,7 +49,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.3em;
+    font-size: 2em;
     line-height: 1.4em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
@@ -98,32 +98,6 @@ p {
     line-height: 1.6em;
     font-family: 'Montserrat', sans-serif;
     color: #00203E;
-}
-
-.warning {
-    color: #ff0000;
-    text-decoration: none;
-}
-
-p .warning-mobilie span {
-    color: #ff0000;
-}
-
-/* Mark input boxes that gets an error on validation: */
-input.invalid {
-    background-color: #ff00004f;
-}
-
-textarea.invalid {
-    background-color: #ff00004f;
-}
-
-textarea.form-control {
-    height: 110px;
-}
-
-select.invalid {
-    background-color: #ff00004f;
 }
 
 a {
@@ -191,17 +165,6 @@ footer small {
     letter-spacing: 0.05rem;
 }
 
-.kategories-links a, .kategories-links, .tag-links a, .tag-links {
-    letter-spacing: 0.05rem;
-    font-size: 0.7rem;
-}
-
-.post-line {
-    border-color: rgba(43, 109, 133, 0.49);
-    border-style: solid;
-    border-width: thin;
-}
-
 .carousel h2 a {
     color: #707070;
     font-weight: 700;
@@ -259,213 +222,6 @@ body {
     margin-top: -200px;
 }
 
-.section-destination {
-    background-color: white;
-}
-
-.section-stats {
-    background-color: #EFEFEF;
-}
-
-.section-stats p {
-    color: #707070;
-}
-
-.section-faqs {
-    overflow: hidden;
-}
-
-.section-faqs h2 {
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
-    -webkit-animation: fadeIn ease 0.6s;
-    -moz-animation: fadeIn ease 0.6s;
-    -o-animation: fadeIn ease 0.6s;
-    animation: fadein ease 0.6s;
-    margin-bottom: 0;
-}
-
-.section-faqs h3 {
-    color: #FF7800;
-    font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
-    -webkit-animation: fadeIn ease 0.6s;
-    -moz-animation: fadeIn ease 0.6s;
-    -o-animation: fadeIn ease 0.6s;
-    animation: fadein ease 0.6s;
-    margin-bottom: 0;
-}
-
-.section-faqs h4 {
-    padding: 12px 0 12px 0;
-    color: #FF7800;
-    font-weight: 800;
-    text-decoration: none;
-    -webkit-animation: fadeIn ease 0.6s;
-    -moz-animation: fadeIn ease 0.6s;
-    -o-animation: fadeIn ease 0.6s;
-    animation: fadein ease 0.6s;
-}
-
-.section-clients {
-    background-color: #EFEFEF;
-}
-
-.section-blog {
-    background-color: transparent;
-}
-
-.section-products-intro {
-    background-color: #00203E;
-    background-size: cover;
-    min-height: 260px;
-}
-
-.section-products {
-    background-color: transparent;
-}
-
-.section-travel-search {
-    background-color: #FFFFFF;
-}
-
-.section-travel-search h2 {
-    color: #00203E;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 0.9;
-}
-
-.section-travel-search p {
-    color: #00203E;
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 1.2;
-}
-
-.section-travel-direction {
-    background-color: #00203E;
-    z-index: 20;
-    min-height: 500px;
-    margin-bottom: 0;
-    border: 1px solid #00203E;
-}
-
-.section-travel-direction h1 {
-    color: #FFFFFF;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.section-slider-posts a {
-    color:#FF7800;
-}
-
-.section-slider-posts, .section-slider-posts li {
-    color: #00203E;
-    font-weight: 400;
-}
-
-.section-slider-posts h1 {
-    color: #00203E;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.section-slider-posts h2 {
-    color: #00203E;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.section-slider-posts h3 {
-    color: #00203E;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.destination-color {
-    color: #FF7800;
-}
-
-.section-uber-uns {
-    background-color: #FFFFFF;
-    overflow: hidden;
-}
-
-.section-uber-uns h1 {
-    color: #00203E;
-}
-
-.section-uber-uns h2 {
-    color: #00203E;
-}
-.section-uber-uns h3 {
-    color: #00203E;
-}
-
-.section-uber-uns p {
-    color: #00203E;
-}
-
-.section-uber-uns figcaption {
-    color: #00203E;
-}
-
-.section-travel-products-banner {
-    background-color: #FFFFFF;
-    overflow: hidden;
-}
-
-.section-travel-products-banner .container {
-    z-index: 1;
-}
-
-.section-travel-products-banner .wp-block-cover {
-    height: 500px;
-    z-index: 0;
-    -webkit-animation: fadeIn ease 0.6s;
-    -moz-animation: fadeIn ease 0.6s;
-    -o-animation: fadeIn ease 0.6s;
-    animation: fadein ease 0.6s;
-}
-
-.wp-block-cover {
-    margin: 0 ;
-}
-
-.section-travel-products-banner h1 {
-    color: #FFFFFF;
-    font-weight: 700;
-    text-align: center;
-}
-
-.section-travel-products-banner p {
-    color: #FFFFFF;
-    font-weight: 700;
-    text-align: center;
-}
-
-.section-post-content {
-    background-color: white;
-    overflow: hidden;
-}
-
-.section-post-content a {
-    color: #FF7800;
-}
-
-.section-post-content a:visited  {
-    color: rgba(249, 178, 52, 0.91);
-}
-
-.section-post-content a:hover {
-    color: #FFFFFF;
-}
-
 nav.navigation .screen-reader-text {
     display: none;
 }
@@ -480,20 +236,6 @@ nav.navigation .screen-reader-text {
     color: #00203E;
     background-color: #FF7800;
     border-radius: 50%;
-}
-
-
-h2.screen-reader-text {
-    font-size: 1rem;
-    line-height: 1.4em;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.section-fun-charts h2 {
-    color: #00203E;
-    font-weight: 700;
-    font-size: 1.4em;
-    text-decoration: none;
 }
 
 /* ----------------------------------------------------------------
@@ -664,6 +406,11 @@ button.navbar-toggler.collapsed:hover .icon-bar.bottom-bar {
     width: 30px;
 }
 
+.navbar-toggler:not(.collapsed) {
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
 /* ----------------------------------------------------------------
 	Primary Menu Home
 -----------------------------------------------------------------*/
@@ -780,7 +527,6 @@ button.navbar-toggler.collapsed:hover .icon-bar.bottom-bar {
     list-style: none;
 }
 
-
 .search-travel-destination-menu {
     width: 300px;
     height: 160px;
@@ -831,174 +577,6 @@ button.navbar-toggler.collapsed:hover .icon-bar.bottom-bar {
 /* ----------------------------------------------------------------
 	5.Carousel
 -----------------------------------------------------------------*/
-
-.carousel-caption-homepage {
-    position: absolute;
-    top: 40%;
-    left: 12%;
-    z-index: 10;
-    color: #FFFFFF;
-    transition: ease all .2s;
-    -webkit-animation: fadeIn ease 0.6s;
-    -moz-animation: fadeIn ease 0.6s;
-    -o-animation: fadeIn ease 0.6s;
-    animation: fadein ease 0.6s;
-}
-
-.carousel-caption p, .carousel-caption h1 {
-    color: #FFFFFF;
-    transition: ease all .2s;
-    -webkit-animation: fadeIn ease 0.6s;
-    -moz-animation: fadeIn ease 0.6s;
-    -o-animation: fadeIn ease 0.6s;
-    animation: fadein ease 0.6s;
-}
-
-.carousel-caption {
-    position: absolute;
-    right: 15%;
-    bottom: 20px;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 60px;
-    color: #fff;
-    text-align: center;
-}
-
-.col-md-3 img {
-    width:100%;
-    height:auto;
-}
-
-body .carousel-control-prev-icon {
-    margin-left: -5rem;
-}
-
-body .carousel-control-next-icon {
-    margin-right: -5rem;
-}
-
-
-.arrow-animation {
-    -moz-animation: bounce 3s infinite;
-    -webkit-animation: bounce 3s infinite;
-    animation: bounce 3s infinite;
-    /*background-image: url('../images/arrow-down.svg');*/
-    background-repeat: no-repeat;
-    width: 20px;
-    margin-top: -3rem;
-    z-index: 333333333;
-    background-size: 20px 20px;
-    background-position: center;
-}
-
-@-moz-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        -moz-transform: translateY(0);
-        transform: translateY(0);
-    }
-    40% {
-        -moz-transform: translateY(-30px);
-        transform: translateY(-30px);
-    }
-    60% {
-        -moz-transform: translateY(-15px);
-        transform: translateY(-15px);
-    }
-}
-@-webkit-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    40% {
-        -webkit-transform: translateY(-30px);
-        transform: translateY(-30px);
-    }
-    60% {
-        -webkit-transform: translateY(-15px);
-        transform: translateY(-15px);
-    }
-}
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        -moz-transform: translateY(0);
-        -ms-transform: translateY(0);
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    40% {
-        -moz-transform: translateY(-30px);
-        -ms-transform: translateY(-30px);
-        -webkit-transform: translateY(-30px);
-        transform: translateY(-30px);
-    }
-    60% {
-        -moz-transform: translateY(-15px);
-        -ms-transform: translateY(-15px);
-        -webkit-transform: translateY(-15px);
-        transform: translateY(-15px);
-    }
-}
-
-.carousel-control-prev-icon {
-    background-image: url('../images/arrow-left.svg');
-    width: 25px;
-    height: 25px;
-}
-
-.carousel-control-next-icon {
-    background-image: url('../images/arrow-right.svg');
-    width: 25px;
-    height: 25px;
-}
-
-.full-width-image img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 0 0 2rem 2rem !important;
-}
-
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 80%;
-    width: 100%;
-    opacity: 0%;
-    transition: .5s ease;
-    background-color: white;
-}
-
-.container:hover .overlay {
-    opacity: 90%;
-}
-
-.text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    min-width: 310px;
-    color: #3e3a3a;
-}
-
-.text p {
-    color: black;
-}
-
-.accordion-card [aria-expanded="false"] .fa {
-    transition: .3s transform ease-in-out;
-}
-
-.accordion-card [aria-expanded="true"] .fa {
-    transform: rotate(90deg);
-}
 
 /* ----------------------------------------------------------------
 	6.Body Content
@@ -1123,58 +701,6 @@ button:focus {
 	7.Forms
 -----------------------------------------------------------------*/
 
-label {
-    display: inline-block;
-    margin: 8px;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    background-color: #FFFFFF;
-    border: 2px solid #d5d5d5;
-    color: #666666;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    background-clip: padding-box;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: 1px 1px 2px rgba(235, 235, 235, 0.3);
-}
-
-.form-control-menu-search {
-    display: block;
-    width: 100%;
-    background-color: #FFFFFF;
-    border: 1px solid #00203E;
-    color: #666666;
-    height: 45px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    background-clip: padding-box;
-    border-radius: 3px;
-    text-decoration: none;
-    margin: 10px 0 10px;
-    cursor: pointer;
-}
-
-.form-control-kinder-input {
-    background-color: #d5e2e8;
-    border: 3px solid #FF7800;
-}
-
-.form-control::placeholder {
-    color: #6c757d;
-    opacity: 0.5;
-    font-size: 0.9rem;
-}
 
 /* Form Alert
 -----------------------------------------------------------------*/
@@ -1580,8 +1106,6 @@ ul.social-links {
     }
 }
 
-@media (max-width: 991.98px) {
-
-}
+@media (max-width: 991.98px) { }
 
 @media (max-width: 1199.98px) {  }
