@@ -198,21 +198,6 @@ body {
 	3.Rows
 -----------------------------------------------------------------*/
 
-.row-we-are-your-webdesing-team {
-    min-height: 500px;
-}
-
-.row-covid  {
-    min-height: 600px;
-}
-
-.row-services {
-    min-height: 600px;
-}
-
-.col-services {
-    min-height: 400px;
-}
 
 /* ----------------------------------------------------------------
 	3.Sections
@@ -1035,9 +1020,42 @@ ul.social-links {
 
 @media (min-width: 768px) {  }
 
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {
 
-@media (min-width: 1200px) {  }
+    .row-we-are-your-webdesing-team {
+        min-height: 600px;
+    }
+
+    .row-covid  {
+        min-height: 600px;
+    }
+
+    .row-services {
+        min-height: 600px;
+    }
+
+    .col-services {
+        min-height: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .row-we-are-your-webdesing-team {
+        min-height: 800px;
+    }
+
+    .row-covid  {
+        min-height: 800px;
+    }
+
+    .row-services {
+        min-height: 800px;
+    }
+
+    .col-services {
+        min-height: 500px;
+    }
+}
 
 @media (max-width: 575.98px) {  }
 
@@ -1106,6 +1124,23 @@ ul.social-links {
     }
 }
 
-@media (max-width: 991.98px) { }
+@media (max-width: 991.98px) {
+
+    .row-we-are-your-webdesing-team {
+        min-height: 500px;
+    }
+
+    .row-covid  {
+        min-height: 500px;
+    }
+
+    .row-services {
+        min-height: 500px;
+    }
+
+    .col-services {
+        min-height: 400px;
+    }
+}
 
 @media (max-width: 1199.98px) {  }

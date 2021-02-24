@@ -7,7 +7,7 @@ function cf_enqueue () {
     wp_enqueue_style( 'cf_style' );
 
     wp_register_script( 'cf_bootstrap_js', get_template_directory_uri().'/assets/js/bootstrap.min.js', array(), false, true );
-
     wp_enqueue_script( 'cf_bootstrap_js' );
+    wp_enqueue_script( 'jquery' );
 }
 
